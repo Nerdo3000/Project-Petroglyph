@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_tear",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Tear of Shamash",
+    "description": "You have collected the Tear of Shamash",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "gembag:gods",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item" :
+          {
+            "items": "minecraft:recovery_compass",
+            "components": {
+              "minecraft:item_model": "minecraft:ghast_tear",
+              "minecraft:item_name": "Tear of Shamash"
+            }
+          }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ],
+  "rewards": {
+    "function": "gembag:gods_tear"
+  }
+}

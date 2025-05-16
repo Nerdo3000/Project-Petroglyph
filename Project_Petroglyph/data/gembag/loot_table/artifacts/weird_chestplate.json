@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Weird Chestplate",
+                  "type": "text"
+                },
+                "minecraft:custom_name": {
+                  "text": "Weird Chestplate",
+                  "type": "text",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  "A very weird Chestplate"
+                ],
+                "enchantment_glint_override" : true,
+                "minecraft:item_model": "minecraft:allay_spawn_egg",
+                "minecraft:glider": {},
+                "minecraft:unbreakable": {},
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "minecraft:diamond",
+                  "swappable": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

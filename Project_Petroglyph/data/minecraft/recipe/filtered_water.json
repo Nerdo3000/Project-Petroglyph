@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    [
+      "minecraft:paper"
+    ],
+    [
+      "minecraft:potion"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:max_stack_size": 32,
+      "minecraft:custom_data": {
+        "filtered": {}
+      },
+      "minecraft:rarity": "rare",
+      "minecraft:item_name": {
+        "text": "Filtered Water",
+        "type": "text"
+      },
+      "minecraft:custom_name": {
+        "text": "Filtered Water",
+        "type": "text",
+        "italic": false
+      }
+    }
+  }
+}

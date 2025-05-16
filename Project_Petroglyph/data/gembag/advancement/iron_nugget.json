@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_nugget",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Nugget of Speed",
+    "description": "You have collected the Nugget of Speed",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "gembag:root",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item" :
+          {
+            "items": "minecraft:recovery_compass",
+            "components": {
+              "minecraft:item_model": "minecraft:iron_nugget",
+              "minecraft:item_name": "Nugget of Speed"
+          }
+      }
+    }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ],
+  "rewards": {
+    "function": "gembag:iron_nugget"
+  }
+}
+
