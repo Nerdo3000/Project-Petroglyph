@@ -28,3 +28,7 @@ EXEMPTIONS
 =============
 	
 	- Nerdo3000 reserves the right to prohibit certain individuals and groups from profiting off of this Project at his SOLE DISCRETION. However, no individual or group will be prohibited from using this Project for personal purposes, or any purpose that does not involve profit, as long as the other guidelines of this License have been followed.
+
+WARRANTY
+====================
+	- The software is provided “as is”, without any warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
