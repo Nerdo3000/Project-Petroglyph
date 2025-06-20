@@ -1,4 +1,4 @@
-# Project-Pectroglyph
+# Project-Petroglyph
 This License describes how the Pectroglyph DataPack may (and, conversely, may not) be used. This License is subject to change by Nerdo3000 at their SOLE DISCRETION at any time. This License was last edited June 20th, 2025.
 
 
