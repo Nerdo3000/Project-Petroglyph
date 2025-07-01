@@ -1,5 +1,5 @@
 # Project-Petroglyph
-This License describes how the Pectroglyph DataPack may (and, conversely, may not) be used. This License is subject to change by Nerdo3000 at their SOLE DISCRETION at any time. This License was last edited June 20th, 2025.
+This License describes how the Pectroglyph DataPack may (and, conversely, may not) be used. This License is subject to change by Nerdo3000 at their SOLE DISCRETION at any time. This License was last edited July 1st 2025.
 
 
 PERMITTED USES
@@ -13,7 +13,7 @@ PERMITTED USES
 
 	- You are permitted to use this Datapack as part of for-profit endeavors such as servers, as long as the other guidelines of this License have been followed, appropriate credit has been given, and as long as you have not been specifically prohibited from doing so.
 
-  	- You are permitted to use parts (e.g. SINGLE scripts, structures, concepts, etc...) for personal use or for-profit endeavors. You are however not permitted to copy the DataPack as a whole, or more than 60% of it. It is apreciated, but not required, to give credit.
+  	- You are permitted to use parts (e.g. SINGLE scripts, structures, concepts, etc...) for personal use or for-profit endeavors. You are however not permitted to copy the DataPack as a whole, or more than 30% of it. It is apreciated, but not required, to give credit.
 
 
 PROHIBITED USES
