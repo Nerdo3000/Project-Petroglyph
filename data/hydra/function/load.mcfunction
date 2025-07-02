@@ -7,3 +7,4 @@ gamerule waterSourceConversion false
 scoreboard objectives add hasDied deathCount
 
 scoreboard objectives add show_no_water dummy
+scoreboard objectives add hydra.distance_from_start dummy
