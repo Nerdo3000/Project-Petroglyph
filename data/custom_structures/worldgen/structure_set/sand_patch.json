@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "custom_structures:sand_patch",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 7,
+    "separation": 0,
+    "salt": 0
+  }
+}

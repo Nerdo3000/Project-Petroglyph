@@ -1382,8 +1382,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:desert",
-                                  "endless_desert:dunes"
+                                  "minecraft:desert"
                                 ]
                               },
                               "then_run": {
@@ -2159,8 +2158,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:desert",
-                                  "endless_desert:dunes"
+                                  "minecraft:desert"
                                 ]
                               },
                               "then_run": {
@@ -2395,8 +2393,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "minecraft:desert",
-                        "endless_desert:dunes"
+                        "minecraft:desert"
                       ]
                     },
                     "then_run": {

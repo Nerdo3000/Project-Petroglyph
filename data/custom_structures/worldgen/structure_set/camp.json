@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "custom_structures:camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 0,
+    "spread": 0,
+    "count": 1,
+    "preferred_biomes": "#minecraft:spawns_warm_variant_frogs",
+    "salt": 0
+  }
+}
