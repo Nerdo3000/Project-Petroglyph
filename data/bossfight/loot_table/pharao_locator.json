@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "minecraft:pharao_temple",
+              "destination": "custom_structures:pharao_temple",
               "decoration": "minecraft:target_point",
               "search_radius": 32,
               "skip_existing_chunks": false

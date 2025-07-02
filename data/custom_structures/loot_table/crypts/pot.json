@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:crypts/crypts_key",
+          "value": "custom_structures:crypts/crypts_key",
           "weight": 8
         },
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:crypts/ominous_crypts_key",
+          "value": "custom_structures:crypts/ominous_crypts_key",
           "weight": 6
         },
         {
