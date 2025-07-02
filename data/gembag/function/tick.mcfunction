@@ -1,7 +1,7 @@
 execute as @a[advancements={gembag:gods_tear=true}] unless entity @a[nbt={active_effects:[{id:"minecraft:regeneration"}]}] run effect give @s minecraft:regeneration 60 1 true
 
 execute as @a[advancements={gembag:gods_egg=true}] run team join peace
-execute as @e[type=#minecraft:peacefully,nbt={"PersistenceRequired":0b}] run team join peace
+execute as @e[type=#gembag:peacefully,nbt={"PersistenceRequired":0b}] run team join peace
 
 execute as @a[advancements={gembag:gods_eye=true}] run effect give @s minecraft:night_vision 4 0 true
 execute as @a[advancements={gembag:gods_star=true}] run attribute @s minecraft:block_interaction_range base set 6

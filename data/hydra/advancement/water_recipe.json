@@ -24,10 +24,10 @@
   ],
   "rewards": {
     "recipes": [
-      "cactus_water",
-      "filtered_water",
-      "water_bottles",
-      "water_bucket"
+      "hydra:cactus_water",
+      "hydra:filtered_water",
+      "hydra:water_bottles",
+      "hydra:water_bucket"
     ]
   },
   "sends_telemetry_event": false
