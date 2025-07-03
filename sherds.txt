@@ -1,23 +1,23 @@
-Angler
-Archer
-Arms Up
-Blade
-Brewer
-Burn
-Danger
-Explorer
-Flow
-Friend
-Guster
-Heart
-Heartbreak
-Howl
-Miner
-Mourner
-Plenty
-Prize
-Scrape
-Sheaf
-Shelter
-Skull
-Snort
+Angler (Fishing rod)
+Archer (Bow)
+Arms Up (Manikin)
+Blade (Sword)
+Brewer (Potion)
+Burn (Fire)
+Danger (Creeper, aww man)
+Explorer (Map)
+Flow (Spiral thingy)
+Friend (Villager Face)
+Guster (Breeze)
+Heart (Heart)
+Heartbreak (Broken heart)
+Howl (Wolf)
+Miner (Pickaxe)
+Mourner (Warden)
+Plenty (Chest)
+Prize (Diamond)
+Scrape (Axe)
+Sheaf (Wheat?)
+Shelter (Weird Acaica Tree)
+Skull (Wither skull)
+Snort (Sniffer)
