@@ -1,23 +1,29 @@
-Angler (Fishing rod)
-Archer (Bow)
-Arms Up (Manikin)
-Blade (Sword)
-Brewer (Potion)
-Burn (Fire)
-Danger (Creeper, aww man)
-Explorer (Map)
-Flow (Spiral thingy)
-Friend (Villager Face)
-Guster (Breeze)
-Heart (Heart)
-Heartbreak (Broken heart)
-Howl (Wolf)
-Miner (Pickaxe)
-Mourner (Warden)
-Plenty (Chest)
-Prize (Diamond)
-Scrape (Axe)
-Sheaf (Wheat?)
-Shelter (Weird Acaica Tree)
-Skull (Wither skull)
-Snort (Sniffer)
+Angler (Fishing rod) [unused]
+Archer (Bow) [unused]
+Arms Up (Manikin) [ur]
+Blade (Sword) [gl]
+Brewer (Potion) [gl]
+Burn (Fire) [tr]
+Danger (Creeper, aww man) [tr]
+Explorer (Map) [mr]
+Flow (Spiral thingy) [--]
+Friend (Villager Face) [ur]
+Guster (Breeze) [--]
+Heart (Heart) [ur]
+Heartbreak (Broken heart) [ur]
+Howl (Wolf) [tr]
+Miner (Pickaxe) [gl]
+Mourner (Warden) [tr]
+Plenty (Chest) [gl]
+Prize (Diamond) [gl]
+Scrape (Axe) [gl]
+Sheaf (Wheat) [ur]
+Shelter (Weird Acaica Tree)[unused]
+Skull (Wither skull) [ur]
+Snort (Sniffer)[unused]
+
+Map Room: mr
+Urns: ur
+Decoration: de
+Good Loot: gl
+Traps around: tr
