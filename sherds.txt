@@ -18,7 +18,7 @@ Plenty (Chest) [gl]
 Prize (Diamond) [gl]
 Scrape (Axe) [gl]
 Sheaf (Wheat) [ur]
-Shelter (Weird Acaica Tree)[unused]
+Shelter (Weird Acaica Tree)[ur]
 Skull (Wither skull) [ur]
 Snort (Sniffer)[unused]
 
