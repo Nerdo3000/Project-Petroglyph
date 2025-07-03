@@ -5,16 +5,6 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "custom_structures:crypts/hall1",
-        "processors": "minecraft:empty",
-        "override_liquid_settings": "ignore_waterlogging"
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
         "location": "custom_structures:crypts/cross1",
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
@@ -26,6 +16,16 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "custom_structures:crypts/hall_cross1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "custom_structures:crypts/hall_tcross1",
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
       }
