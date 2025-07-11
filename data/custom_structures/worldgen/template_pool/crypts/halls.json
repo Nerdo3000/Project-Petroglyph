@@ -149,6 +149,16 @@
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
       }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "custom_structures:crypts/throne",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
     }
   ],
   "fallback": "minecraft:empty"
