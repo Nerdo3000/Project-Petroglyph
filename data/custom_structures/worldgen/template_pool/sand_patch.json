@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "custom_structures:sand_patch1",
+        "location": "custom_structures:sand_patch/sand_patch1",
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
       }
@@ -16,7 +16,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "custom_structures:sand_patch2",
+        "location": "custom_structures:sand_patch/sand_patch2",
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
       }
@@ -26,7 +26,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "custom_structures:sand_patch3",
+        "location": "custom_structures:sand_patch/sand_patch3",
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
       }

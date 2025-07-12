@@ -5,7 +5,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "custom_structures:pharao_temple_base",
+        "location": "custom_structures:pharao_temple/base",
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
       }
