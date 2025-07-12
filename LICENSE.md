@@ -4,18 +4,18 @@ This License describes how the Petroglyph DataPack may (and, conversely, may not
 MIT-LICENSED
 ===================
 
-- "./data/custom_structures/structure/tradesmen_outpost/tradesmen_outpost.nbt"
+ - "./data/custom_structures/structure/tradesmen_outpost/tradesmen_outpost.nbt"
 
-- "./data/minecraft/worldgen/noise_settings/overworld.json"
+ - "./data/minecraft/worldgen/noise_settings/overworld.json"
 
-- The water HUD display in "./data/hydra/function/tick.mcfunction"
+ - The water HUD display in "./data/hydra/function/tick.mcfunction"
 
 
 
 PERMITTED USES
 ===================
 
-	- You are permitted to use this DataPack for whatever personal purpose you desire. You can use it on a singleplayer world and modify it as much as you want, as long as you don't distribute modified versions of the DataPack.
+ - You are permitted to use this DataPack for whatever personal purpose you desire. You can use it on a singleplayer world and modify it as much as you want, as long as you don't distribute modified versions of the DataPack.
 
 	- You are permitted to use this Datapack on any Minecraft server, public or private. It is recommended, but not required, that you give credit. 
 
