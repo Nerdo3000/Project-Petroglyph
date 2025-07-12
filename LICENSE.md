@@ -1,6 +1,7 @@
 # Project-Petroglyph
 This License describes how the Petroglyph DataPack may (and, conversely, may not) be used. This License is subject to change by Nerdo3000 at their SOLE DISCRETION at any time. This License was last edited July 13th 2025. This License applies to all parts of the DataPack, except for the following, wich are Licensed under the MIT-License (https://mit-license.org/).
 
+MIT-LICENSED
 ===================
 
 - "./data/custom_structures/structure/tradesmen_outpost/tradesmen_outpost.nbt"
