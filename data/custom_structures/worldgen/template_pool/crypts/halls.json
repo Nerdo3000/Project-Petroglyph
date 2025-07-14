@@ -161,11 +161,21 @@
       }
     },
     {
-      "weight": 150,
+      "weight": 40,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "custom_structures:crypts/hall2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "custom_structures:crypts/hall3",
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
       }
