@@ -179,6 +179,16 @@
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging"
       }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "custom_structures:crypts/in_progress",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
     }
   ],
   "fallback": "minecraft:empty"
