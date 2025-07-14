@@ -2,6 +2,7 @@
     "values": [
     "gembag:tick",
     "hydra:tick",
-    "bossfight:tick"
+    "bossfight:tick",
+    "custom_structures:tick"
  ]
 }
