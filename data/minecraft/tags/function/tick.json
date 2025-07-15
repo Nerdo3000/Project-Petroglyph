@@ -3,6 +3,7 @@
     "gembag:tick",
     "hydra:tick",
     "bossfight:tick",
-    "custom_structures:tick"
+    "custom_structures:tick",
+    "weather:tick"
  ]
 }
