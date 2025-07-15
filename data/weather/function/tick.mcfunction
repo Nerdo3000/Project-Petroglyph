@@ -50,5 +50,6 @@ execute as @a run function weather:storm_at_entity20
 execute as @a run function weather:storm_at_entity20
 execute as @a run function weather:storm_at_entity20
 execute as @a run function weather:storm_at_entity20
-execute as @a at @s if predicate weather:sky_light run playsound minecraft:block.sand.idle ambient @s ~ ~ ~ 2 1 1
-execute as @a at @s if predicate weather:sky_light run effect give @s minecraft:darkness 10 0 true
+
+execute as @a run function weather:check_y
+kill @e[type=marker,tag=position]

@@ -1,1 +1,1 @@
-$execute at @s positioned ~$(X) ~ ~$(Z) positioned over motion_blocking_no_leaves run particle dust{color:$(color),scale:4} ~ ~$(Y) ~ 1 15 1 0.2 30 force @s
+$execute at @s positioned ~$(X) ~ ~$(Z) positioned over motion_blocking_no_leaves run particle dust{color:$(color),scale:4} ~ ~$(Y) ~ 1 10 1 0.2 30 force @s

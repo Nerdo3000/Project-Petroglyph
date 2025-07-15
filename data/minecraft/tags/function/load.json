@@ -2,6 +2,7 @@
     "values": [
     "gembag:load",
     "hydra:load",
-    "bossfight:load"
+    "bossfight:load",
+    "weather:load"
 ]
 }

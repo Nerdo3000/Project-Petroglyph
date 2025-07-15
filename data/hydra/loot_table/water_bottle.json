@@ -12,15 +12,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 32,
-                "minecraft:item_name": {
-                  "text": "Water Bottle",
-                  "type": "text"
-                },
-                "minecraft:custom_name": {
-                  "text": "Water Bottle",
-                  "type": "text",
-                  "italic": false
-                }
+                "minecraft:potion_contents": "minecraft:water"
               }
             }
           ]
