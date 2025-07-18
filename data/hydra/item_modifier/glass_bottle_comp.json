@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "max_stack_size": 64,
+    "item_model": "glass_bottle",
+    "custom_name": {
+      "text": "Glass Bottle",
+      "italic": false
+    },
+    "rarity": "common",
+    "custom_data": {
+      "glass_bottle_fake": {}
+    }
+  }
+}

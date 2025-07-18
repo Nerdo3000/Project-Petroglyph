@@ -46,17 +46,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "flow_pottery_sherd",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "name": "friend_pottery_sherd",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "guster_pottery_sherd",
           "weight": 1
         },
         {

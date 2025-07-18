@@ -13,8 +13,3 @@ data modify entity @s drop_chances.mainhand set value 1f
 data modify entity @s drop_chances.offhand set value 1f
 
 tag @s remove boss_setup
-
-bossbar add pharao "Awakend Pharao"
-bossbar set minecraft:pharao max 120
-bossbar set minecraft:pharao style notched_20
-bossbar set minecraft:pharao color yellow

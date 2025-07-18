@@ -1,5 +1,10 @@
 execute at @s run bossbar set minecraft:pharao players @a[distance=..50]
 
+bossbar add pharao "Awakend Pharao"
+bossbar set minecraft:pharao max 120
+bossbar set minecraft:pharao style notched_20
+bossbar set minecraft:pharao color yellow
+
 execute store result bossbar minecraft:pharao value run data get entity @s Health
 
 execute store result score @s boss_health run data get entity @s Health 1
