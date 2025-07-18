@@ -1,15 +1,20 @@
-execute as @s run loot replace entity @s armor.head loot bossfight:pharao_head
-execute as @s run item replace entity @s armor.chest with minecraft:golden_chestplate
-execute as @s run item replace entity @s armor.legs with minecraft:golden_leggings
-execute as @s run item replace entity @s armor.feet with minecraft:golden_boots
-execute as @s run loot replace entity @s weapon.mainhand loot gembag:artifacts/ancient_sword
-execute as @s run loot replace entity @s weapon.offhand loot gembag:artifacts/balance_axe
+loot replace entity @s armor.head loot bossfight:pharao_head
+item replace entity @s armor.chest with minecraft:golden_chestplate
+item replace entity @s armor.legs with minecraft:golden_leggings
+item replace entity @s armor.feet with minecraft:golden_boots
+loot replace entity @s weapon.mainhand loot gembag:artifacts/ancient_sword
+loot replace entity @s weapon.offhand loot gembag:artifacts/balance_axe
 
-execute as @s run data modify entity @s drop_chances.head set value 0f
-execute as @s run data modify entity @s drop_chances.chest set value 0f
-execute as @s run data modify entity @s drop_chances.legs set value 0f
-execute as @s run data modify entity @s drop_chances.feet set value 0f
-execute as @s run data modify entity @s drop_chances.mainhand set value 1f
-execute as @s run data modify entity @s drop_chances.offhand set value 1f
+data modify entity @s drop_chances.head set value 0f
+data modify entity @s drop_chances.chest set value 0f
+data modify entity @s drop_chances.legs set value 0f
+data modify entity @s drop_chances.feet set value 0f
+data modify entity @s drop_chances.mainhand set value 1f
+data modify entity @s drop_chances.offhand set value 1f
 
-execute as @s run tag @s remove boss_setup
+tag @s remove boss_setup
+
+bossbar add pharao "Awakend Pharao"
+bossbar set minecraft:pharao max 120
+bossbar set minecraft:pharao style notched_20
+bossbar set minecraft:pharao color yellow

@@ -1,53 +1,53 @@
-execute as @s run function weather:storm_at_entity60
-execute as @s run function weather:storm_at_entity60
-execute as @s run function weather:storm_at_entity60
-execute as @s run function weather:storm_at_entity60
-execute as @s run function weather:storm_at_entity60
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity40
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
-execute as @s run function weather:storm_at_entity20
+function weather:storm_at_entity60
+function weather:storm_at_entity60
+function weather:storm_at_entity60
+function weather:storm_at_entity60
+function weather:storm_at_entity60
+function weather:storm_at_entity40
+function weather:storm_at_entity40
+function weather:storm_at_entity40
+function weather:storm_at_entity40
+function weather:storm_at_entity40
+function weather:storm_at_entity40
+function weather:storm_at_entity40
+function weather:storm_at_entity40
+function weather:storm_at_entity40
+function weather:storm_at_entity40
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
+function weather:storm_at_entity20
 
-execute as @s run function weather:check_y
+function weather:check_y
