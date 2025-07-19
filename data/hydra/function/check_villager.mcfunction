@@ -1,0 +1,6 @@
+execute if entity @s[nbt={Offers:{Recipes:[{buy:{id:"minecraft:glass_bottle"}}]}}] run data modify storage minecraft:tmp id set from entity @s Offers.Recipes[6].buy.id
+execute if data storage minecraft:tmp {id:"minecraft:glass_bottle"} run data modify entity @s Offers.Recipes[6].buy.id set value "minecraft:recovery_compass"
+execute if data storage minecraft:tmp {id:"minecraft:glass_bottle"} run data modify entity @s Offers.Recipes[6].buy.components set value {"max_stack_size": 64, "item_model": "glass_bottle", "custom_name": {"text":"Glass Bottle","italic": false},"rarity": "common","custom_data": {"glass_bottle_fake": {}}}
+execute if entity @s[nbt={Offers:{Recipes:[{buy:{id:"minecraft:glass_bottle"}}]}}] run data modify storage minecraft:tmp id set from entity @s Offers.Recipes[7].buy.id
+execute if data storage minecraft:tmp {id:"minecraft:glass_bottle"} run data modify entity @s Offers.Recipes[7].buy.id set value "minecraft:recovery_compass"
+execute if data storage minecraft:tmp {id:"minecraft:glass_bottle"} run data modify entity @s Offers.Recipes[7].buy.components set value {"max_stack_size": 64, "item_model": "glass_bottle", "custom_name": {"text":"Glass Bottle","italic": false},"rarity": "common","custom_data": {"glass_bottle_fake": {}}}

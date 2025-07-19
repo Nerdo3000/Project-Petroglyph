@@ -2,6 +2,8 @@ function hydra:stack_water
 execute as @a run function hydra:replace_bottle
 execute as @e[type=minecraft:item, nbt={Item:{id:"minecraft:glass_bottle"}}] run function hydra:replace_bottle_slot {n:0, slot:"container"}
 
+execute as @e[type=villager, nbt={VillagerData:{profession:"minecraft:cleric"}}] run function hydra:check_villager
+
 scoreboard players set @a hydra.distance_from_start 0
 execute as @a at @s anchored eyes if function hydra:raycast_cauldron run function hydra:real_bottle
 
