@@ -4,3 +4,4 @@ execute store result score @s current_y run data get entity @s Pos[1] 1
 execute if score @s current_y >= @s highest_y run effect give @s minecraft:darkness 5 0 true
 scoreboard players add @s current_y 20
 execute if score @s current_y >= @s highest_y run playsound minecraft:block.sand.idle ambient @s ~ ~ ~ 2 1 1
+

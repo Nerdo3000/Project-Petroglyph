@@ -51,3 +51,4 @@ function weather:storm_at_entity20
 function weather:storm_at_entity20
 
 function weather:check_y
+kill @e[type=marker,tag=position]

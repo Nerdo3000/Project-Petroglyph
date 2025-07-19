@@ -2,6 +2,7 @@
   "values": [
     "minecraft:crafting_table",
     "minecraft:crafter",
-    "minecraft:brewing_stand"
+    "minecraft:brewing_stand",
+    "minecraft:water_cauldron"
   ]
 }
