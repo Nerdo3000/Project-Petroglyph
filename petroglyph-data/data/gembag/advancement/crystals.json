@@ -3,11 +3,12 @@
     "icon": {
       "id": "minecraft:medium_amethyst_bud",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/ui"]}
       }
     },
     "title": "Crystals",
-    "description": "Youre Cyrstal collection",
+    "description": "Your Cyrstal collection",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

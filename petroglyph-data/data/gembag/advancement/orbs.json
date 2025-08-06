@@ -8,7 +8,7 @@
       }
     },
     "title": "Orbs",
-    "description": "Youre Orb collection",
+    "description": "Your Orb collection",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

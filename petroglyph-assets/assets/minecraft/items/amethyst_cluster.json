@@ -11,7 +11,7 @@
             "when": "petroglyph:gembag/gem",
             "model": {
               "type": "minecraft:model",
-              "model": "petroglyph:item/test"
+              "model": "petroglyph:item/amethyst5"
             }
           }
         ],
