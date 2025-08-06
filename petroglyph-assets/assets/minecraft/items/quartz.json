@@ -8,7 +8,7 @@
         "index": 0,
         "cases": [
           {
-            "when": "petroglyph",
+            "when": "petroglyph:gembag/gem",
             "model": {
               "type": "minecraft:model",
               "model": "petroglyph:item/test"

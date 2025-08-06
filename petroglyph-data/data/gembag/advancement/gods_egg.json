@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:endermite_spawn_egg",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
     "title": "Egg of Amaterasu",
@@ -23,7 +24,8 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:endermite_spawn_egg",
-              "minecraft:item_name": "Egg of Amaterasu"
+              "minecraft:item_name": "Egg of Amaterasu",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }
       }

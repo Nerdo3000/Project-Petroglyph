@@ -1,1 +1,1 @@
-clear @s minecraft:recovery_compass[item_model="diamond", item_name="Diamond Gem"] 1
+clear @s minecraft:recovery_compass[item_model="diamond", minecraft:custom_model_data = {"strings":["petroglyph:gembag/gem"]}] 1

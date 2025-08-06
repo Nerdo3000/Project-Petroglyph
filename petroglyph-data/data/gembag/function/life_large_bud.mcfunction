@@ -1,1 +1,1 @@
-clear @s minecraft:recovery_compass[item_model="large_amethyst_bud", item_name="Large Bud of Life"] 1
+clear @s minecraft:recovery_compass[item_model="large_amethyst_bud",minecraft:custom_model_data = {"strings":["petroglyph:gembag/gem"]}] 1

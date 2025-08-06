@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:ender_eye",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
     "title": "Eye of Ra",
@@ -23,7 +24,8 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:ender_eye",
-              "minecraft:item_name": "Eye of Ra"
+              "minecraft:item_name": "Eye of Ra",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }
       }

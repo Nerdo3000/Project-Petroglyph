@@ -11,6 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "item_model":"prismarine_crystals",
+                "custom_model_data": {"strings":["petroglyph:gembag/gem"]},
              "item_name":"Crystals of Speed",
              "rarity":"uncommon",
              "enchantment_glint_override":true, 

@@ -12,6 +12,7 @@
               "components": {
                 "item_model":"diamond",
              "item_name":"Diamond Gem",
+             "custom_model_data": {"strings":["petroglyph:gembag/gem"]},
              "rarity":"common",
              "enchantment_glint_override":true, 
 "consumable":{"consume_seconds":0, "animation":"none", "sound":"ui.toast.in", "has_consume_particles":false}, 

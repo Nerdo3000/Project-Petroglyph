@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:slime_ball",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
     "title": "Orb of Jumping",
@@ -23,7 +24,8 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:slime_ball",
-              "minecraft:item_name": "Orb of Jumping"
+              "minecraft:item_name": "Orb of Jumping",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }
       }

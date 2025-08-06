@@ -12,6 +12,7 @@
               "components": {
                 "item_model":"endermite_spawn_egg",
              "item_name":"Egg of Amaterasu",
+             "custom_model_data": {"strings":["petroglyph:gembag/gem"]},
              "rarity":"epic",
              "enchantment_glint_override":true, 
 "consumable":{"consume_seconds":0, "animation":"none", "sound":"ui.toast.in", "has_consume_particles":false}, 

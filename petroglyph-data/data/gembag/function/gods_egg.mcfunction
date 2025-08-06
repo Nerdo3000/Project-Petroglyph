@@ -1,1 +1,1 @@
-clear @s minecraft:recovery_compass[item_model="endermite_spawn_egg", item_name="Egg of Amaterasu"] 1
+clear @s minecraft:recovery_compass[item_model="endermite_spawn_egg",minecraft:custom_model_data = {"strings":["petroglyph:gembag/gem"]}] 1

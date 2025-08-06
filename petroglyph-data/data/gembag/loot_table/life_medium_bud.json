@@ -12,6 +12,7 @@
               "components": {
                "item_model":"medium_amethyst_bud",
              "item_name":"Medium Bud of Life",
+             "custom_model_data": {"strings":["petroglyph:gembag/gem"]},
              "rarity":"uncommon",
              "enchantment_glint_override":true, 
 "consumable":{"consume_seconds":0, "animation":"none", "sound":"ui.toast.in", "has_consume_particles":false}, 

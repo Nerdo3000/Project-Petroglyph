@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:large_amethyst_bud",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
     "title": "Large Bud of Life",
@@ -23,7 +24,8 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:large_amethyst_bud",
-              "minecraft:item_name": "Large Bud of Life"
+              "minecraft:item_name": "Large Bud of Life",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }
       }

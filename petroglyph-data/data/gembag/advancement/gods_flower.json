@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:sunflower",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
     "title": "Sundisk of Tonatiuh",
@@ -23,7 +24,8 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:sunflower",
-              "minecraft:item_name": "Sundisk of Tonatiuh"
+              "minecraft:item_name": "Sundisk of Tonatiuh",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }
       }

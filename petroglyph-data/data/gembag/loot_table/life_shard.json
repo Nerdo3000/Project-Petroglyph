@@ -12,6 +12,7 @@
               "components": {
                 "item_model":"amethyst_shard",
              "item_name":"Shard of Life",
+             "custom_model_data": {"strings":["petroglyph:gembag/gem"]},
              "rarity":"common",
              "enchantment_glint_override":true, 
 "consumable":{"consume_seconds":0, "animation":"none", "sound":"ui.toast.in", "has_consume_particles":false}, 

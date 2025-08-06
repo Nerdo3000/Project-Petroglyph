@@ -12,8 +12,6 @@ execute as @a if predicate {condition:"minecraft:entity_properties",entity:"this
 
 execute as @a if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"gembag:diamond":1b}}}} run attribute @s minecraft:attack_damage base set 2
 execute as @a if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"gembag:emerald":1b}}}} run effect give @s minecraft:luck 1 0 true
-execute as @a if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"gembag:iron_nugget":1b}}}} run attribute @s minecraft:attack_speed base set 6
-execute as @a if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"gembag:gold_nugget":1b}}}} run attribute @s minecraft:block_break_speed base set 2
 execute as @a if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"gembag:uncut":1b}}}} run attribute @s minecraft:armor base set 5
 execute as @a if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"gembag:resin":1b}}}} run attribute @s minecraft:armor_toughness base set 5
 

@@ -1,1 +1,1 @@
-clear @s minecraft:recovery_compass[item_model="ender_eye", item_name="Eye of Ra"] 1
+clear @s minecraft:recovery_compass[item_model="ender_eye", minecraft:custom_model_data = {"strings":["petroglyph:gembag/gem"]}] 1

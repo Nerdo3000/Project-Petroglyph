@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:nether_star",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/ui"]}
       }
     },
     "title": "Legendary Gems",

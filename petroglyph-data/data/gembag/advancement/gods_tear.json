@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:ghast_tear",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
     "title": "Tear of Shamash",
@@ -23,7 +24,8 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:ghast_tear",
-              "minecraft:item_name": "Tear of Shamash"
+              "minecraft:item_name": "Tear of Shamash",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }
       }

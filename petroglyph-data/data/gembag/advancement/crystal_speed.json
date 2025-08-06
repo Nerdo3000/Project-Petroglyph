@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:prismarine_crystals",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
     "title": "Crystals of Speed",
@@ -23,7 +24,8 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:prismarine_crystals",
-              "minecraft:item_name": "Crystals of Speed"
+              "minecraft:item_name": "Crystals of Speed",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }
       }

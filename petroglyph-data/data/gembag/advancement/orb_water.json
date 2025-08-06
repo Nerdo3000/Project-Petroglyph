@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:heart_of_the_sea",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
     "title": "Orb of Water",
@@ -23,7 +24,8 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:heart_of_the_sea",
-              "minecraft:item_name": "Orb of Water"
+              "minecraft:item_name": "Orb of Water",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }
       }

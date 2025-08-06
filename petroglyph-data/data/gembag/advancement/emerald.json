@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:emerald",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
     "title": "Emerald Gem",
@@ -23,7 +24,8 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:emerald",
-              "minecraft:item_name": "Emerald Gem"
+              "minecraft:item_name": "Emerald Gem",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }
       }

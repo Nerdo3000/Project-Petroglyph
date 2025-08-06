@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "item_model":"quartz",
-                "custom_model_data": {"strings":["petroglyph"]},
+                "custom_model_data": {"strings":["petroglyph:gembag/gem"]},
              "item_name":"Crystal of Purity",
              "rarity":"uncommon",
              "enchantment_glint_override":true, 

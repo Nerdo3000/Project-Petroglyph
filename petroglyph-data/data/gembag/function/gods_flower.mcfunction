@@ -1,1 +1,1 @@
-clear @s minecraft:recovery_compass[item_model="sunflower", item_name="Sundisk of Tonatiuh"] 1
+clear @s minecraft:recovery_compass[item_model="sunflower", minecraft:custom_model_data = {"strings":["petroglyph:gembag/gem"]}] 1
