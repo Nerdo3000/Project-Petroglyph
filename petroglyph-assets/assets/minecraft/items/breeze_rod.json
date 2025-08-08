@@ -8,16 +8,16 @@
         "index": 0,
         "cases": [
           {
-            "when": "petroglyph:gembag/gem",
+            "when": "petroglyph:gembag/artifact",
             "model": {
               "type": "minecraft:model",
-              "model": "petroglyph:item/gods_flower"
+              "model": "petroglyph:item/pipe"
             }
           }
         ],
         "fallback": {
           "type": "minecraft:model",
-          "model": "minecraft:item/sunflower"
+          "model": "minecraft:item/breeze_rod"
         }
       }
     ]

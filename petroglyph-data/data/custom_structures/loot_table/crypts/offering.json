@@ -83,6 +83,16 @@
           "weight": 3
         },
         {
+          "type": "minecraft:loot_table",
+          "value": "custom_structures:crypts/crypts_key",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "custom_structures:crypts/ominous_crypts_key",
+          "weight": 1
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:cookie",
           "weight": 6,

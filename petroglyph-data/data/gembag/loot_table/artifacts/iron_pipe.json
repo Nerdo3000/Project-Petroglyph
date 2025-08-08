@@ -23,6 +23,7 @@
                 "minecraft:lore": [
                   "A very powerfull... Weapon?"
                 ],
+                "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]},
                 "minecraft:item_model": "minecraft:breeze_rod"
               }
             }

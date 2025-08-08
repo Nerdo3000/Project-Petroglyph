@@ -19,5 +19,8 @@ execute as @a[scores={hydration_rate=7..}] run title @s actionbar [{"text": "Hyd
 execute as @a[tag=!OLD] run scoreboard players set @s hydration_level 1000
 execute as @a[tag=!OLD] run tag @s add OLD
 
+execute as @a if score @s hasDied matches 1.. if score @s hydration_level matches ..0 run gamemode spectator @s
+execute as @a if score @s hasDied matches 1.. if score @s hydration_level matches ..0 run tellraw @s {text:"You have died from dehydration. You cannot respawn. You can spectate the world.",color:"dark_red"}
+execute as @a if score @s hasDied matches 1.. if score @s hydration_level matches ..0 at @s run spawnpoint @s ~ ~ ~ ~
 execute as @a if score @s hasDied matches 1.. run scoreboard players set @s hydration_level 1000
 scoreboard players set @a hasDied 0

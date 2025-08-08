@@ -18,7 +18,7 @@ execute as @a if score @s hydration_rate matches ..0 run scoreboard players set 
 execute as @a if entity @s[gamemode=!survival] if entity @s[gamemode=!adventure] run scoreboard players set @s hydration_rate 0
 
 execute as @a run scoreboard players operation @s hydration_level -= @s hydration_rate 
-execute as @a if score @s hydration_level matches ..0 run damage @s 4 minecraft:dry_out
+execute as @a if score @s hydration_level matches ..0 run damage @s 8 minecraft:dry_out
 execute as @a if score @s hydration_level matches ..20 run effect give @s minecraft:nausea 15 0 false 
 
 schedule function hydra:tick_thirst 2s replace

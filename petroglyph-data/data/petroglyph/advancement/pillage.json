@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner",
+      "components": {"banner_patterns":[
+        {"pattern":"rhombus","color":"cyan"},
+        {"pattern":"stripe_bottom","color":"light_gray"},
+        {"pattern":"stripe_center","color":"gray"},
+        {"pattern":"half_horizontal","color":"light_gray"},
+        {"pattern":"stripe_middle","color":"black"},
+        {"pattern":"half_horizontal","color":"light_gray"},
+        {"pattern":"circle","color":"light_gray"},
+        {"pattern":"border","color":"black"}]
+      }
+    },
+    "title": "Not so Friendly Faces",
+    "description": "Visit a Pillager Outpost; maybe steal some Water from them.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "petroglyph:village",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:pillager_outpost"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ]
+}
