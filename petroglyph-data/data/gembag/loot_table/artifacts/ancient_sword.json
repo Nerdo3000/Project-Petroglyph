@@ -41,6 +41,7 @@
                   "bypassed_by": "#minecraft:always_hurts_ender_dragons"
                 },
                 "minecraft:unbreakable": {},
+                "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]},
                 "enchantment_glint_override": true,
                 "minecraft:lore": [
                   "A pre Combat Update Sword"

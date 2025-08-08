@@ -23,7 +23,8 @@
                 "minecraft:item_model": "minecraft:trial_key",
                 "minecraft:custom_data": {
                   "crypts": {}
-                }
+                },
+                "custom_model_data": {"strings":["petroglyph:crypts/item"]}
               }
             }
           ]

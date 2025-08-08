@@ -25,6 +25,7 @@
                 ],
                 "enchantment_glint_override" : true,
                 "minecraft:item_model": "minecraft:allay_spawn_egg",
+                "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]},
                 "minecraft:glider": {},
                 "minecraft:unbreakable": {},
                 "minecraft:equippable": {

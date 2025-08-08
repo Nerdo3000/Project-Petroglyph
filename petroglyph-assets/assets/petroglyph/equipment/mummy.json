@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "petroglyph:mummy"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "petroglyph:mummy"
+      }
+    ]
+  }
+}

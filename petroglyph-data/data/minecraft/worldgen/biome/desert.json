@@ -105,7 +105,6 @@
         "maxCount": 8
       }
     ],
-    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
@@ -113,10 +112,7 @@
         "minCount": 4,
         "maxCount": 6
       }
-    ],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
+    ]
   },
   "spawn_costs": {},
   "temperature": 2,
