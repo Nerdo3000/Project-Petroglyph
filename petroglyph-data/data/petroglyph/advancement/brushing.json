@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_sand"
+    },
+    "title": "Ancient sands",
+    "description": "Use a brush to uncover artifacts.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "petroglyph:crypts",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:brush"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ]
+}
