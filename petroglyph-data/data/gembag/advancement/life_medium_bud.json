@@ -17,7 +17,7 @@
   "parent": "gembag:life_small_bud",
   "criteria": {
     "basic": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "minecraft:using_item",
       "conditions": {
         "item" :
           {
