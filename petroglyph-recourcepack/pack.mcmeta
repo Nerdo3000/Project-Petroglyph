@@ -6,16 +6,5 @@
       55,
       64
     ]
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "overlay_60",
-        "formats": [
-          56,
-          65
-        ]
-      }
-    ]
   }
 }
