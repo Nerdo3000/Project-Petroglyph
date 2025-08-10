@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe",
+      "components": {
+        "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]}
+      }
+    },
+    "title": "A balanced axe",
+    "description": "Collect and equip the Blancing Axe from the Pharao. It totally not OP...",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "petroglyph-guide:pharao_boss",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe",
+            "components": {
+              "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ]
+}

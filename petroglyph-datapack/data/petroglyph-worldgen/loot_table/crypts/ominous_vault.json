@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/hteralys",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/iron_pipe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/knockback_stick",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/wither_arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:echo_shard",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_wind",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_fire",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_water",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_jump",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_nature",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

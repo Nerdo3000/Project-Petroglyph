@@ -4,11 +4,11 @@ This License describes how the Petroglyph Data Pack, Mod and Recource Pack may (
 MIT-LICENSED
 ===================
 
-	- "./data/custom_structures/structure/tradesmen_outpost/tradesmen_outpost.nbt"
+	- "./data/petroglyph-worldgen/structure/tradesmen_outpost/tradesmen_outpost.nbt"
 
 	- "./data/minecraft/worldgen/noise_settings/overworld.json"
 
-	- The water HUD display in "./data/hydra/function/tick.mcfunction"
+	- The water HUD display in "./data/petroglyph-hydra/function/tick.mcfunction"
 
 
 

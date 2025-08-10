@@ -1,0 +1,8 @@
+{
+    "values": [
+    "petroglyph-gembag:load",
+    "petroglyph-hydra:load",
+    "petroglyph-bossfight:load",
+    "petroglyph-weather:load"
+]
+}

@@ -1,5 +1,5 @@
 # Description
-This Datapack changes the entire overworld world generation, so that all of it is made out of deserts. Water is scarce and not renewable (no infinite water sources), but you will need it to survive. The hydration system is based on your movement, exposure to daylight and location. You will need to live a nomadic lifestyle to survive the harsh desert.
+This Datapack changes the entire overworld world generation, so that all of it is made out of deserts. Water is scarce and not renewable (no infinite water sources), but you will need it to survive. The petroglyph-hydration system is based on your movement, exposure to daylight and location. You will need to live a nomadic lifestyle to survive the harsh desert.
 
 There are new structures, including the Crypts (deserts), pyramids (badlands), oases (deserts), suspicious sand patches (deserts) and desert tradesmen outposts. Many of these structures contain suspicious sand, from which you can uncover new artifacts and gems. Gems are collectible items, which give you a permanent bonus. You can view youre collected Gems in a new Advancement tab. Keep those brushes ready!
 

@@ -1,0 +1,235 @@
+{
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot3",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot4",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot5",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot6",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot7",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot8",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot9",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot10",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot11",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot12",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot13",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot14",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot15",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot16",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot17",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot18",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot19",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot20",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot21",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot22",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/pots/pot23",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+    	}
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

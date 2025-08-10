@@ -1,0 +1,9 @@
+{
+    "values": [
+    "petroglyph-gembag:tick",
+    "petroglyph-hydra:tick",
+    "petroglyph-bossfight:tick",
+    "petroglyph-worldgen:tick",
+    "petroglyph-weather:tick"
+ ]
+}

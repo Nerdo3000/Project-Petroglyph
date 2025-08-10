@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]}
+      }
+    },
+    "title": "An ancient sword",
+    "description": "Collect and equip the ancient sword from the Pharao. It exhibits pre combat update behavior.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "petroglyph-guide:pharao_boss",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_sword",
+            "components": {
+              "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ]
+}

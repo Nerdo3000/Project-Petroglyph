@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion",
+              "minecraft:water_bucket",
+              "minecraft:bucket",
+              "minecraft:glass_bottle",
+              "minecraft:cauldron"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "petroglyph-hydra:cactus_water",
+      "petroglyph-hydra:filtered_water",
+      "petroglyph-hydra:water_bottles",
+      "petroglyph-hydra:water_bucket"
+    ]
+  },
+  "sends_telemetry_event": false
+}
