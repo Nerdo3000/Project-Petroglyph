@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "petroglyph:crypts/item",
+            "model": {
+              "type": "minecraft:model",
+              "model": "petroglyph:item/crypts_key"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/trial_key"
+        }
+      }
+    ]
+  }
+}

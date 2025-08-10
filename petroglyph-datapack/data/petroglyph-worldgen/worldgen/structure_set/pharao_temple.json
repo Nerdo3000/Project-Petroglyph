@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 14357617,
+    "separation": 34,
+    "spacing": 69
+  },
+  "structures": [
+    {
+      "structure": "petroglyph-worldgen:pharao_temple",
+      "weight": 1
+    }
+  ]
+}

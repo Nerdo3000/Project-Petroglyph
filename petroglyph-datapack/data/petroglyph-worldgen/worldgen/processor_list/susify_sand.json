@@ -1,0 +1,71 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:end_stone",
+          "probability": 0.4
+        },
+        "output_state": {
+          "Name": "sand"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:end_stone",
+          "probability": 0.6666666667
+        },
+        "output_state": {
+          "Name": "minecraft:sandstone"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:end_stone",
+          "probability": 1
+        },
+        "output_state": {
+          "Name": "minecraft:suspicious_sand"
+        },
+        "block_entity_modifier": {
+          "type": "minecraft:append_loot",
+          "loot_table": "petroglyph-worldgen:crypts/sus_sand"
+        }
+      }
+    ]
+  },
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:waxed_exposed_copper_bulb",
+          "probability": 0.2
+        },
+        "output_state": {
+          "Name": "minecraft:waxed_oxidized_copper_bulb",
+          "Properties": {
+            "lit": "true"
+          }
+        }
+      }
+    ]
+  }
+]

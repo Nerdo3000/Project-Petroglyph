@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components": {
+            "minecraft:item_name": {
+              "text": "Cactus Water",
+              "type": "text"
+            },
+            "minecraft:custom_name": {
+              "text": "Cactus Water",
+              "type": "text",
+              "italic": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ],
+  "rewards": {
+    "function": "petroglyph-hydra:water_drink_cactus"
+  }
+}

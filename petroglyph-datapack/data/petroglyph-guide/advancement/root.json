@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sand"
+    },
+    "title": "Petroglyph",
+    "description": "Your guide to the Endless Desert!",
+    "background": "minecraft:block/sand",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ]
+}

@@ -1,8 +1,0 @@
-{
-    "values": [
-    "gembag:load",
-    "hydra:load",
-    "bossfight:load",
-    "weather:load"
-]
-}
