@@ -38,19 +38,27 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli"
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:ender_pearl"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:brush"
+          "name": "minecraft:brush",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:flint_and_steel"
+          "name": "minecraft:bundle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 3
         }
       ]
     }

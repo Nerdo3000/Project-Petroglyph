@@ -1,5 +1,5 @@
 # Project-Petroglyph
-This License describes how the Petroglyph Data Pack, Mod and Recource Pack may (and, conversely, may not) be used. This License is subject to change by Nerdo3000 at their SOLE DISCRETION at any time. This License was last edited August 6th 2025. This License applies to all parts of the Data Pack, Mod and Recource Pack, except for the following, wich are Licensed under the MIT-License (https://mit-license.org/).
+This License describes how the Petroglyph Data Pack, Mod and Recource Pack may (and, conversely, may not) be used. This License is subject to change by Nerdo3000 at their SOLE DISCRETION at any time. This License was last edited August 6th 2025. This License applies to all parts of the Data Pack, Mod and Recource Pack, except for the following, which are Licensed under the MIT-License (https://mit-license.org/).
 
 MIT-LICENSED
 ===================
