@@ -20,7 +20,7 @@ execute as @a[tag=!OLD] run scoreboard players set @s petroglyph-hydration_level
 execute as @a[tag=!OLD] run tag @s add OLD
 
 execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 run gamemode spectator @s
-execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 run tellraw @s {text:"You have died from depetroglyph-hydration. You cannot respawn. You can spectate the world.",color:"dark_red"}
+execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 run tellraw @s {text:"You have died from dehydration. You cannot respawn. You can spectate the world.",color:"dark_red"}
 execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 at @s run spawnpoint @s ~ ~ ~ ~
 execute as @a if score @s hasDied matches 1.. run scoreboard players set @s petroglyph-hydration_level 1000
 scoreboard players set @a hasDied 0
