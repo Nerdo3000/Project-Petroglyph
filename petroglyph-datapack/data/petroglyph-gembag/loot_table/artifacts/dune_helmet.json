@@ -24,7 +24,7 @@
                   "slot": "head",
                   "damage_on_hurt": false
                 },
-                "minecraft:lore": ["+1 petroglyph-hydration Reduction"]
+                "minecraft:lore": ["+1 Hydration Reduction"]
               }
             }
           ]
