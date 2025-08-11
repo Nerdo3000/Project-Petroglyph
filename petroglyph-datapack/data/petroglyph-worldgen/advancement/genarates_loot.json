@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ],
+  "rewards": {
+  }
+}

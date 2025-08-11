@@ -7,8 +7,8 @@
         "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
       }
     },
-    "title": "Eye of Ra",
-    "description": "You have collected the Eye of Ra! \n[Night Vision I Effect]",
+    "title": "Eye of Horus",
+    "description": "You have collected the Eye of Horus! \n[Night Vision I Effect]",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -24,7 +24,7 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:ender_eye",
-              "minecraft:item_name": "Eye of Ra",
+              "minecraft:item_name": "Eye of Hrous",
               "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }

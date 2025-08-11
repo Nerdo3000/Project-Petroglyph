@@ -1,0 +1,1 @@
+scoreboard objectives add petroglyph.barrel_cooldown dummy

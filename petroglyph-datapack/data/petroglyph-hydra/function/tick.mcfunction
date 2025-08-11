@@ -16,8 +16,7 @@ execute as @a[scores={petroglyph-hydration_rate=..3}] run title @s actionbar [{"
 execute as @a[scores={petroglyph-hydration_rate=4..6}] run title @s actionbar [{"text": "Hydration: ","color": "yellow"},{"score": {"name": "@s","objective": "petroglyph-hydration_level"},"color": "yellow"},{"text": "/","color": "yellow"},{"text": "1500 ","color": "yellow"},{"text": " [-","color": "yellow"},{"score":{"name": "@s","objective": "petroglyph-hydration_rate"},"color": "yellow"},{"text": "]","color": "yellow"}]
 execute as @a[scores={petroglyph-hydration_rate=7..}] run title @s actionbar [{"text": "Hydration: ","color": "red"},{"score": {"name": "@s","objective": "petroglyph-hydration_level"},"color": "red"},{"text": "/","color": "red"},{"text": "1500 ","color": "red"},{"text": " [-","color": "red"},{"score":{"name": "@s","objective": "petroglyph-hydration_rate"},"color": "red"},{"text": "]","color": "red"}]
 
-execute as @a[tag=!OLD] run scoreboard players set @s petroglyph-hydration_level 1000
-execute as @a[tag=!OLD] run tag @s add OLD
+execute as @a[tag=!OLD] run function petroglyph-hydra:new_player
 
 execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 run gamemode spectator @s
 execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 run tellraw @s {text:"You have died from dehydration. You cannot respawn. You can spectate the world.",color:"dark_red"}

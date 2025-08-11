@@ -18,7 +18,7 @@
             }
           ],
           "name": "minecraft:iron_ingot",
-          "weight": 2
+          "weight": 12
         },
         {
           "type": "minecraft:item",
@@ -34,17 +34,17 @@
             }
           ],
           "name": "minecraft:bread",
-          "weight": 4
+          "weight": 14
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 1
+          "weight": 11
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
-          "weight": 5,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -59,12 +59,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-hydra:water_bottle",
-          "weight": 3
+          "weight": 13
         },
 	{
           "type": "minecraft:item",
           "name": "minecraft:cooked_rabbit",
-          "weight": 4,
+          "weight": 14,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -79,16 +79,27 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:brush",
-          "weight": 1
+          "weight": 11
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:lantern",
-          "weight": 1
+          "weight": 11
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:book"
+          "name": "minecraft:saddle",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 11
         },
         {
           "type": "minecraft:item",
@@ -109,7 +120,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-worldgen:sus_sand_patch",
-          "weight": 1
+          "weight": 11
         }
       ],
       "rolls": {
