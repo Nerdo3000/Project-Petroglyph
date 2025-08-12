@@ -14,8 +14,8 @@ Many of these structures contain suspicious sand, from which you can uncover new
 
 The Datapack also features a new boss mob: the Pharao. You can find it in the Pyramid, but it is advised to prepare yourself beforehand, as it's a tough fight!![The Pharao Boss and Mummy Minions in the Background](https://cdn.modrinth.com/data/cached_images/d4e8140ec88c91dc2f67c1dbdce715d995860ebc_0.webp)
 
-# Recource Pack
-The Data Pack comes with a optional Recource Pack. If you install the Data Pack or Mod version, you can download the Recource Pack seperatly. The Recource Pack IS NOT REQUIRED, but recommended. For example it does this:![Normal Mummy on the left; Improved Mummy on the right!](https://cdn.modrinth.com/data/cached_images/e26ac73f4ffc0e8da81386daec7cd0983edd79dd_0.webp)
+# resource Pack
+The Data Pack comes with a optional resource Pack. If you install the Data Pack or Mod version, you can download the resource Pack seperatly. The resource Pack IS NOT REQUIRED, but recommended. For example it does this:![Normal Mummy on the left; Improved Mummy on the right!](https://cdn.modrinth.com/data/cached_images/e26ac73f4ffc0e8da81386daec7cd0983edd79dd_0.webp)
 
 # Guide
 <details>
