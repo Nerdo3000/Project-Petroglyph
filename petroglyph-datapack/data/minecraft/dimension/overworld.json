@@ -19,6 +19,18 @@
           }
         },
         {
+          "biome": "petroglyph-worldgen:fossilyard",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -1,
+            "continentalness": 1.8,
+            "erosion": 0.7,
+            "weirdness": -1.2,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
           "biome": "minecraft:badlands",
           "parameters": {
             "temperature": 0.5,

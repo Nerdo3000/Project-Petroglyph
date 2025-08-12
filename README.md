@@ -6,8 +6,8 @@ There are new structures, including the
 - Pyramids (generate in badlands)![The Pyramid](https://cdn.modrinth.com/data/cached_images/e6e529e520adee6f1fccca39bd745910cb14ce3d_0.webp)
 - Oases (generate in deserts)![An oasis](https://cdn.modrinth.com/data/cached_images/851fb5e6123f12e273c406285ac964608a474392_0.webp)
 - Suspicious sand patches (generate in deserts)![A suspicious sand patch](https://cdn.modrinth.com/data/cached_images/ec92f475f613b25edba6f583366040ea51d1d03c_0.webp)
-- Desert tradesmen outposts (generate in every biome)![A tradesmen outpost](https://cdn.modrinth.com/data/cached_images/7a28d840ac935736964b6a62aab70eca4bb6e0d5_0.webp)
-- Camp (generate in every biome, as it allways generates near spawn)![A Camp](https://cdn.modrinth.com/data/cached_images/4a03ec7fce87813abee560c4e291ae3069871d18_0.webp)
+- Desert tradesmen outposts (generate in deserts)![A tradesmen outpost](https://cdn.modrinth.com/data/cached_images/7a28d840ac935736964b6a62aab70eca4bb6e0d5_0.webp)
+- Camp (generate in every biome, as it allways generates near 0 0)![A Camp](https://cdn.modrinth.com/data/cached_images/4a03ec7fce87813abee560c4e291ae3069871d18_0.webp)
   
 Many of these structures contain suspicious sand, from which you can uncover new artifacts and gems. Gems are collectible items, which give you a permanent bonus. You can view youre collected Gems in a new Advancement tab. Keep those brushes ready!![The Gems Advancement Tab](https://cdn.modrinth.com/data/cached_images/74948fb547230c467f761320512fc1ceffe2a366.png)
 
