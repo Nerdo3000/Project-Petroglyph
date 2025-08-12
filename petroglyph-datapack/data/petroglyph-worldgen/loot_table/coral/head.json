@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_fire_coral",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model":"air",
+                "equippable":{
+                  "slot": "head"
+                },
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "petroglyph:worldgen/coral"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

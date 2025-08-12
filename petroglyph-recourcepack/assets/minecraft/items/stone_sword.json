@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "petroglyph:worldgen/coral",
+            "model": {
+              "type": "minecraft:model",
+              "model": "petroglyph:item/spear"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stone_sword"
+        }
+      }
+    ]
+  }
+}
