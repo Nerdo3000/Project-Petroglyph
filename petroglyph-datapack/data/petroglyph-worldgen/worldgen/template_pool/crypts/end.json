@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:crypts/end1",
+        "processors": "petroglyph-worldgen:susify_sand",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

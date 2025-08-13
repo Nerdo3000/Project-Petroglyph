@@ -19,16 +19,6 @@
         "processors": "petroglyph-worldgen:susify_sand",
         "override_liquid_settings": "ignore_waterlogging"
       }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "petroglyph-worldgen:crypts/hall_tcross1",
-        "processors": "petroglyph-worldgen:susify_sand",
-        "override_liquid_settings": "ignore_waterlogging"
-      }
     }
   ],
   "fallback": "minecraft:empty"
