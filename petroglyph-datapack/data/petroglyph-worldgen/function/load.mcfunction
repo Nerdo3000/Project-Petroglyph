@@ -1,1 +1,2 @@
 scoreboard objectives add petroglyph.barrel_cooldown dummy
+function petroglyph-worldgen:add_variation
