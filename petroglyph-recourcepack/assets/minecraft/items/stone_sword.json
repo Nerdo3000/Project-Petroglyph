@@ -11,7 +11,7 @@
             "when": "petroglyph:worldgen/coral",
             "model": {
               "type": "minecraft:model",
-              "model": "petroglyph:item/spear"
+              "model": "petroglyph:item/dagger"
             }
           }
         ],

@@ -1,0 +1,1 @@
+execute at @s if predicate petroglyph-worldgen:fossilyard run function petroglyph-worldgen:variate_fossilyard
