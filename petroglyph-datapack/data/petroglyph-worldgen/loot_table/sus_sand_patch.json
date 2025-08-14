@@ -141,6 +141,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:life_small_bud",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:crystal_pure"
         },
         {

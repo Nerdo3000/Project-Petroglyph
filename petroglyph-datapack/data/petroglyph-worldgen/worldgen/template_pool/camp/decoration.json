@@ -11,7 +11,7 @@
       }
     },
     {
-      "weight": 30,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
@@ -31,11 +31,11 @@
       }
     },
         {
-      "weight": 10,
+      "weight": 50,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "petroglyph-worldgen:camp/hay",
+        "location": "petroglyph-worldgen:camp/pile",
         "processors": "petroglyph-worldgen:camp",
         "override_liquid_settings": "ignore_waterlogging"
       }
@@ -46,26 +46,6 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "petroglyph-worldgen:camp/camel",
-        "processors": "petroglyph-worldgen:camp",
-        "override_liquid_settings": "ignore_waterlogging"
-      }
-    },
-            {
-      "weight": 10,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "petroglyph-worldgen:camp/cobble",
-        "processors": "petroglyph-worldgen:camp",
-        "override_liquid_settings": "ignore_waterlogging"
-      }
-    },
-        {
-      "weight": 5,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "petroglyph-worldgen:camp/iron",
         "processors": "petroglyph-worldgen:camp",
         "override_liquid_settings": "ignore_waterlogging"
       }
@@ -130,14 +110,10 @@
         "override_liquid_settings": "ignore_waterlogging"
       }
     },
-        {
-      "weight": 100,
+    {
+      "weight": 10,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "petroglyph-worldgen:camp/end",
-        "processors": "petroglyph-worldgen:camp",
-        "override_liquid_settings": "ignore_waterlogging"
+        "element_type": "empty_pool_element"
       }
     }
   ],

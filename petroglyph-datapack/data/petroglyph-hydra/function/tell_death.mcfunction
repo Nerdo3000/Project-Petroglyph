@@ -1,0 +1,1 @@
+tellraw @a ["",{selector:"@s",color:"dark_red"}, {text:" died from dehydration. He cannot respawn. He can spectate the world.",color:"dark_red"}]

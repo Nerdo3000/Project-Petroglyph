@@ -22,7 +22,11 @@
           {
             "items": "minecraft:diamond_sword",
             "components": {
-              "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]}
+              "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]},
+                  "minecraft:item_name": {
+                  "text": "Ancient Sword",
+                  "type": "text"
+                }
             }
           }
         ]

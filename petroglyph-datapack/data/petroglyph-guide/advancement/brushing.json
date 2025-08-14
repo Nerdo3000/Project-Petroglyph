@@ -13,11 +13,9 @@
   "parent": "petroglyph-guide:crypts",
   "criteria": {
     "basic": {
-      "trigger": "minecraft:using_item",
+      "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "item": {
-          "items": "minecraft:brush"
-        }
+        "loot_table": "petroglyph-worldgen:crypts/sus_sand"
       }
     }
   },

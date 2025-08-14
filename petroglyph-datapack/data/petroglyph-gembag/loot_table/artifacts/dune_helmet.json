@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:light_gray_stained_glass",
+          "name": "minecraft:recovery_compass",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -24,7 +24,9 @@
                   "slot": "head",
                   "damage_on_hurt": false
                 },
-                "minecraft:lore": ["+1 Hydration Reduction"]
+                "minecraft:lore": ["+1 Hydration Reduction"],
+                "rarity": "common",
+                "item_model": "gray_stained_glass"
               }
             }
           ]

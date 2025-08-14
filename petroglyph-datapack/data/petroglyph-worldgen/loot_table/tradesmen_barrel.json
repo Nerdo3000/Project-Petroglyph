@@ -18,7 +18,7 @@
             }
           ],
           "name": "minecraft:iron_ingot",
-          "weight": 12
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -27,7 +27,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4,
+                "max": 2,
                 "min": 1
               },
               "function": "minecraft:set_count"
@@ -51,7 +51,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
-                "max": 12
+                "max": 7
               }
             }
           ]
@@ -59,19 +59,19 @@
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-hydra:water_bottle",
-          "weight": 13
+          "weight": 7
         },
-	{
+	      {
           "type": "minecraft:item",
           "name": "minecraft:cooked_rabbit",
-          "weight": 14,
+          "weight": 13,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 6
+                "max": 2
               }
             }
           ]
@@ -79,7 +79,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:brush",
-          "weight": 11
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -89,12 +89,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:saddle",
-          "weight": 7
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bundle",
-          "weight": 7
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -103,30 +103,30 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_helmet"
+          "name": "minecraft:chainmail_helmet"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_chestplate"
+          "name": "minecraft:chainmail_chestplate"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_leggings"
+          "name": "minecraft:chainmail_leggings"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_boots"
+          "name": "minecraft:chainmail_boots"
         },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-worldgen:sus_sand_patch",
-          "weight": 11
+          "weight": 7
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 10,
-        "min": 5
+        "max": 6,
+        "min": 3
       }
     }
   ]

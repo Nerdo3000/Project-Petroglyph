@@ -7,62 +7,148 @@
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:artifacts/hteralys",
-          "weight": 1
+          "weight": 5
         },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:artifacts/iron_pipe",
-          "weight": 1
+          "weight": 5
         },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:artifacts/knockback_stick",
-          "weight": 1
+          "weight": 5
         },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:artifacts/wither_arrow",
-          "weight": 1,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 5
+                "max": 3
               }
             }
           ]
         },
+                {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:life_cluster",
+          "weight": 5
+        },                
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:diamond",
+          "weight": 5
+        },
+                        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:resin",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:life_large_bud",
+          "weight": 5
+        },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:echo_shard",
-          "weight": 1
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:orb_wind",
-          "weight": 1
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:orb_fire",
-          "weight": 1
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:orb_water",
-          "weight": 1
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:orb_jump",
-          "weight": 1
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:orb_nature",
-          "weight": 1
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond_leggings",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond_boots",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond_chestplate",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond_helmet",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
         }
       ]
     }

@@ -19,7 +19,8 @@ execute as @a[scores={petroglyph-hydration_rate=7..}] run title @s actionbar [{"
 execute as @a[tag=!OLD] run function petroglyph-hydra:new_player
 
 execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 run gamemode spectator @s
-execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 run tellraw @s {text:"You have died from dehydration. You cannot respawn. You can spectate the world.",color:"dark_red"}
+#execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 run tellraw @s {text:"You have died from dehydration. You cannot respawn. You can spectate the world.",color:"dark_red"}
+execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 run function petroglyph-hydra:tell_death
 execute as @a if score @s hasDied matches 1.. if score @s petroglyph-hydration_level matches ..0 at @s run spawnpoint @s ~ ~ ~ ~
 execute as @a if score @s hasDied matches 1.. run scoreboard players set @s petroglyph-hydration_level 1000
 scoreboard players set @a hasDied 0
