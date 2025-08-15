@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:spawns_warm_variant_frogs",
+  "biomes": "#petroglyph-worldgen:every_biome",
   "spawn_overrides": {},
   "step":"strongholds",
   "terrain_adaptation": "beard_thin",

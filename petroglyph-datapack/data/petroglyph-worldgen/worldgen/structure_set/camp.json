@@ -10,7 +10,7 @@
     "distance": 0,
     "spread": 0,
     "count": 1,
-    "preferred_biomes": "#minecraft:spawns_warm_variant_frogs",
+    "preferred_biomes": "#petroglyph-worldgen:every_biome",
     "salt": 0
   }
 }
