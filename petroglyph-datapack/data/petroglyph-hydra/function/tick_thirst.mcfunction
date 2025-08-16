@@ -1,5 +1,6 @@
 scoreboard players set @a petroglyph-hydration_rate 1
 execute as @a if biome ~ ~ ~ #minecraft:is_badlands run scoreboard players add @s petroglyph-hydration_rate 1
+execute as @a if biome ~ ~ ~ petroglyph-worldgen:pyroa run scoreboard players add @s petroglyph-hydration_rate 2
 execute as @a if predicate petroglyph-hydra:jumping run scoreboard players add @s petroglyph-hydration_rate 1
 execute as @a if predicate petroglyph-hydra:sprinting run scoreboard players add @s petroglyph-hydration_rate 1
 execute as @a if predicate petroglyph-hydra:sky_light unless predicate petroglyph-hydra:night_time run scoreboard players add @s petroglyph-hydration_rate 2

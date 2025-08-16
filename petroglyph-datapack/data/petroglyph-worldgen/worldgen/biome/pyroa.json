@@ -1,0 +1,81 @@
+{
+  "effects": {
+    "sky_color": 13003321,
+    "fog_color": 14391865,
+    "water_color": 4555922,
+    "water_fog_color": 329011
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:canyon",
+    "minecraft:cave_extra_underground"
+  ],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_tuff",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "petroglyph-worldgen:blobs/basalt",
+      "petroglyph-worldgen:blobs/magma",
+      "petroglyph-worldgen:blobs/smooth_basalt"
+    ],
+    [
+      "minecraft:delta",
+      "petroglyph-worldgen:small_basalt"
+    ],
+    [],
+    [
+      "minecraft:glow_lichen"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 3,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false
+}

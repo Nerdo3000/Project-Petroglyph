@@ -2,6 +2,7 @@
   "values": [
     "#minecraft:is_badlands",
     "minecraft:desert",
-    "petroglyph-worldgen:fossilyard"
+    "petroglyph-worldgen:fossilyard",
+    "petroglyph-worldgen:pyroa"
   ]
 }
