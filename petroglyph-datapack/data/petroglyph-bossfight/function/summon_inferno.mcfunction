@@ -1,0 +1,3 @@
+#give Nerdo_3000 minecraft:acacia_log[minecraft:item_model=air,minecraft:custom_model_data={"strings":["petroglyph:worldgen/inferno"]}]
+summon blaze ~ ~ ~ {attributes:[{id:scale,base:1.2},{id:max_health,base:100}],Health:100,Tags:["inferno_base","inferno"],PersistenceRequired:1b}
+summon minecraft:item_display ~ ~ ~ {item:{id:blaze_rod,components:{"minecraft:item_model":"air","minecraft:custom_model_data":{"strings":["petroglyph:worldgen/inferno"]}}},interpolation_duration:2,Tags:["inferno_shield","inferno"],teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.2f,1.2f,1.2f]},brightness:{block:15,sky:15}}

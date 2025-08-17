@@ -1,0 +1,1 @@
+execute as @s at @s as @e[type=item_display,tag=inferno_shield,sort=nearest,limit=1] rotated as @s run tp @s ~ ~1 ~ ~10 ~

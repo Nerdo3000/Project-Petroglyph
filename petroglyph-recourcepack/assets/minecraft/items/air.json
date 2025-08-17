@@ -13,6 +13,13 @@
               "type": "minecraft:model",
               "model": "petroglyph:item/coral_armor_head"
             }
+          },
+          {
+            "when": "petroglyph:worldgen/inferno",
+            "model": {
+              "type": "minecraft:model",
+              "model": "petroglyph:item/inferno"
+            }
           }
         ],
         "fallback": {

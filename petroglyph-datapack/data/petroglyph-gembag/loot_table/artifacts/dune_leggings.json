@@ -21,7 +21,9 @@
                   "italic": false
                 },
                 "minecraft:dyed_color": 12759680,
-                "minecraft:lore": ["+1 Hydration Reduction"]
+                "enchantments": {
+                  "petroglyph-gembag:hydration_reduction": 1
+                }
               }
             }
           ]

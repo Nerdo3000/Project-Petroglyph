@@ -1,0 +1,66 @@
+{
+	"textures": {
+		"0": "petroglyph:item/hovering_inferno",
+		"particle": "hovering_inferno"
+	},
+	"elements": [
+		{
+			"from": [2, 0, -8],
+			"to": [14, 22, -7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, -8]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 5.5], "texture": "#0"},
+				"east": {"uv": [0, 5.5, 0.25, 11], "texture": "#0"},
+				"south": {"uv": [3, 0, 6, 5.5], "texture": "#0"},
+				"west": {"uv": [0.25, 5.5, 0.5, 11], "texture": "#0"},
+				"up": {"uv": [3.5, 5.75, 0.5, 5.5], "texture": "#0"},
+				"down": {"uv": [6.5, 5.5, 3.5, 5.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-8, 0, 2],
+			"to": [-7, 22, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-8, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 5.5, 0.25, 11], "texture": "#0"},
+				"east": {"uv": [3, 0, 6, 5.5], "texture": "#0"},
+				"south": {"uv": [0.25, 5.5, 0.5, 11], "texture": "#0"},
+				"west": {"uv": [0, 0, 3, 5.5], "texture": "#0"},
+				"up": {"uv": [3.5, 5.75, 0.5, 5.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [6.5, 5.5, 3.5, 5.75], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [24, 0, 2],
+			"to": [25, 22, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [24, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 5.5, 0.25, 11], "texture": "#0"},
+				"east": {"uv": [3, 0, 6, 5.5], "texture": "#0"},
+				"south": {"uv": [0.25, 5.5, 0.5, 11], "texture": "#0"},
+				"west": {"uv": [0, 0, 3, 5.5], "texture": "#0"},
+				"up": {"uv": [3.5, 5.75, 0.5, 5.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [6.5, 5.5, 3.5, 5.75], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 0, 24],
+			"to": [14, 22, 25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 24]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 5.5], "texture": "#0"},
+				"east": {"uv": [0, 5.5, 0.25, 11], "texture": "#0"},
+				"south": {"uv": [3, 0, 6, 5.5], "texture": "#0"},
+				"west": {"uv": [0.25, 5.5, 0.5, 11], "texture": "#0"},
+				"up": {"uv": [3.5, 5.75, 0.5, 5.5], "texture": "#0"},
+				"down": {"uv": [6.5, 5.5, 3.5, 5.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-6, -2, -4]
+		}
+	}
+}
