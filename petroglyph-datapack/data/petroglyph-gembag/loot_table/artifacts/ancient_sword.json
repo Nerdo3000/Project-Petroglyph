@@ -25,9 +25,8 @@
                   "disable_cooldown_scale": 0,
                   "damage_reductions": [
                     {
-                      "type": "minecraft:mob_attack",
-                      "base": 4,
-                      "factor": 0.7,
+                      "base": 1,
+                      "factor": 1,
                       "horizontal_blocking_angle": 90
                     }
                   ],
@@ -38,7 +37,7 @@
                   },
                   "block_sound": "block.anvil.place",
                   "disabled_sound": "item.shield.break",
-                  "bypassed_by": "#minecraft:always_hurts_ender_dragons"
+                  "bypassed_by": "#bypasses_shield"
                 },
                 "minecraft:unbreakable": {},
                 "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]},

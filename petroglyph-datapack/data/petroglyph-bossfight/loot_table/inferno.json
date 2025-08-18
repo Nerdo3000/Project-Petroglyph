@@ -1,0 +1,15 @@
+{
+  "type": "command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "petroglyph-gembag:artifacts/inferno_shield"
+        }
+      ]
+    }
+  ]
+}

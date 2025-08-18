@@ -12,4 +12,9 @@ data modify entity @s drop_chances.feet set value 0f
 data modify entity @s drop_chances.mainhand set value 1f
 data modify entity @s drop_chances.offhand set value 1f
 
+scoreboard players add 0 petroglpyh-uuid_counter 1
+scoreboard players operation @s petroglpyh-uuid = 0 petroglpyh-uuid_counter
+execute store result storage minecraft:tmp score int 1 run scoreboard players get @s petroglpyh-uuid
+function petroglyph-bossfight:register_bossbar with storage minecraft:tmp
+
 tag @s remove boss_setup
