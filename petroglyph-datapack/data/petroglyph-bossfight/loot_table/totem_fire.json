@@ -13,13 +13,13 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
-                  "text": "Totem of Eternal Life",
+                  "text": "Totem of Eternal Flames",
                   "italic": false
                 },
-                "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact/life"]},
-                "minecraft:item_name": "Totem of Eternal Life",
+                "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact/flame"]},
                 "minecraft:custom_data":{
                   "flame_totem": {}},
+                "minecraft:item_name": "Totem of Eternal Flames",
                 "minecraft:death_protection": {
                   "death_effects": [
                     {
@@ -34,17 +34,9 @@
                           "show_icon": true
                         },
                         {
-                          "id": "minecraft:absorption",
-                          "amplifier": 1,
-                          "duration": 100,
-                          "ambient": true,
-                          "show_particles": true,
-                          "show_icon": true
-                        },
-                        {
                           "id": "minecraft:fire_resistance",
                           "amplifier": 0,
-                          "duration": 800,
+                          "duration": 2000,
                           "ambient": true,
                           "show_particles": true,
                           "show_icon": true

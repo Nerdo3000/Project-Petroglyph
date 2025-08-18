@@ -12,10 +12,7 @@
   ],
   "features": [
     [],
-    [],
-    [],
-    [],
-    [
+    [      
       "minecraft:ore_gravel",
       "minecraft:ore_tuff",
       "minecraft:ore_iron_upper",
@@ -33,8 +30,10 @@
       "minecraft:ore_copper",
       "petroglyph-worldgen:blobs/basalt",
       "petroglyph-worldgen:blobs/magma",
-      "petroglyph-worldgen:blobs/smooth_basalt"
-    ],
+      "petroglyph-worldgen:blobs/smooth_basalt"],
+    [],
+    [],
+    [],
     [
       "minecraft:delta",
       "petroglyph-worldgen:small_basalt"
@@ -48,14 +47,7 @@
     ]
   ],
   "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:magma_cube",
-        "weight": 3,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "monster": [],
     "creature": [],
     "ambient": [
       {

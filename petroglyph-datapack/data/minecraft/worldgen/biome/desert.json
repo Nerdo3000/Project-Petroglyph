@@ -12,19 +12,7 @@
   ],
   "features": [
     [
-      "minecraft:amethyst_geode"
-    ],
-    [
-      "minecraft:fossil_upper",
-      "minecraft:fossil_lower",
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
-    [
-      "minecraft:desert_well"
-    ],
-    [],
-    [
+      "minecraft:amethyst_geode",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_tuff",
@@ -44,6 +32,17 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper"
     ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [],
     [],
     [
       "minecraft:spring_lava"

@@ -8,10 +8,17 @@
         "index": 0,
         "cases": [
           {
-            "when": "petroglyph:gembag/artifact",
+            "when": "petroglyph:gembag/artifact/life",
             "model": {
               "type": "minecraft:model",
               "model": "petroglyph:item/eternal_totem"
+            }
+          },
+          {
+            "when": "petroglyph:gembag/artifact/flame",
+            "model": {
+              "type": "minecraft:model",
+              "model": "petroglyph:item/fire_totem"
             }
           }
         ],

@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "feature": "petroglyph-worldgen:column/reinforced_deepslate"
+      }
+    }
+  ],
+  "fallback": "petroglyph-worldgen:fort/column/reinforced_deepslate"
+}
