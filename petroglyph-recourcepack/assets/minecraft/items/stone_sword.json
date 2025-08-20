@@ -13,6 +13,13 @@
               "type": "minecraft:model",
               "model": "petroglyph:item/dagger"
             }
+          },
+          {
+            "when": "petroglyph:worldgen/wither",
+            "model": {
+              "type": "minecraft:model",
+              "model": "petroglyph:item/withering_sword"
+            }
           }
         ],
         "fallback": {

@@ -1,0 +1,27 @@
+{
+  "spawn_range": 3,
+  "total_mobs": 6,
+  "total_mobs_added_per_player": 3,
+  "simultaneous_mobs": 4,
+  "simultaneous_mobs_added_per_player": 2,
+  "ticks_between_spawn": 100,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:magma_cube",
+          "PersistenceRequired": true,
+          "Size": 1
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "data": "petroglyph-worldgen:fort/ominous_spawner",
+      "weight": 1
+    }
+  ],
+  "items_to_drop_when_ominous": "petroglyph-worldgen:fort/ominous_item_drop"
+}
