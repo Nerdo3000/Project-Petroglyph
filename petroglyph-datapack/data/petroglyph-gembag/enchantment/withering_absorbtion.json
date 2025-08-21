@@ -1,0 +1,47 @@
+{
+  "anvil_cost": 800,
+  "description": "Withering Absorbtion",
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "petroglyph-gembag:withering",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:add",
+              "value": 4
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 2500,
+    "per_level_above_first": 1000
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1000,
+    "per_level_above_first": 1000
+  },
+  "slots": [
+    "head",
+    "chest",
+    "legs",
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1
+}

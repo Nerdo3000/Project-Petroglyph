@@ -13,11 +13,26 @@
                     "type": "minecraft:condition",
                   "on_false": {
                     "type": "minecraft:model",
-                    "model": "petroglyph:item/shield_not_blocking"
+                    "model": "petroglyph:item/inferno_shield"
                   },
                   "on_true": {
                     "type": "minecraft:model",
-                    "model": "petroglyph:item/shield_blocking"
+                    "model": "petroglyph:item/inferno_shield_blocking"
+                  },
+                  "property": "minecraft:using_item"
+                          }
+                  },
+                  {
+                  "when": "petroglyph:worldgen/wither",
+                  "model": {
+                    "type": "minecraft:condition",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "petroglyph:item/withering_shield"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "petroglyph:item/withering_shield_blocking"
                   },
                   "property": "minecraft:using_item"
                           }

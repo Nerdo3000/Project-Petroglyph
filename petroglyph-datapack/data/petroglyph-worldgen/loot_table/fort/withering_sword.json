@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_sword",
+          "name": "minecraft:iron_sword",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -25,7 +25,8 @@
                 },
                 "minecraft:enchantment_glint_override": false,
                 "minecraft:enchantments": {
-                  "minecraft:fire_aspect": 1
+                  "minecraft:fire_aspect": 1,
+                  "petroglyph-gembag:withering_damage": 1
                 }
               }
             }

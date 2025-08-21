@@ -1,0 +1,43 @@
+{
+  "spawn_range": 3,
+  "total_mobs": 1,
+  "total_mobs_added_per_player": 12,
+  "simultaneous_mobs": 1,
+  "simultaneous_mobs_added_per_player": 1,
+  "ticks_between_spawn": 0,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:wither_skeleton",
+          "Health": 30,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 30
+            }
+          ],
+          "PersistenceRequired": true,
+            "drop_chances": {
+            "chest": 0,
+            "head": 0,
+            "legs": 0,
+            "feet": 0
+          }
+        },
+        "equipment": {
+          "loot_table": "petroglyph-worldgen:fort/withering_miniboss_ominous",
+          "slot_drop_chances": 0
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "data": "petroglyph-worldgen:fort/ominous_spawner",
+      "weight": 1
+    }
+  ],
+  "items_to_drop_when_ominous": "petroglyph-worldgen:fort/ominous_item_drop"
+}

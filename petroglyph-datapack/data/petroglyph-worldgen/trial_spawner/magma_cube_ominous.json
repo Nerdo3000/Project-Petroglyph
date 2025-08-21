@@ -14,6 +14,16 @@
           "Size": 1
         }
       },
+      "weight": 2
+    },
+        {
+      "data": {
+        "entity": {
+          "id": "minecraft:magma_cube",
+          "PersistenceRequired": true,
+          "Size": 2
+        }
+      },
       "weight": 1
     }
   ],

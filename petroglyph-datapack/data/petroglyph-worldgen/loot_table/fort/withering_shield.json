@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow",
+          "name": "minecraft:shield",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -16,16 +16,12 @@
                   ]
                 },
                 "minecraft:item_name": {
-                  "text": "Withering Bow",
+                  "text": "Withering Shield",
                   "italic": false
                 },
                 "minecraft:custom_name": {
-                  "text": "Withering Bow",
+                  "text": "Withering Shield",
                   "italic": false
-                },
-                "minecraft:enchantments": {
-                  "minecraft:flame": 1,
-                  "petroglyph-gembag:withering_damage": 1
                 }
               }
             }

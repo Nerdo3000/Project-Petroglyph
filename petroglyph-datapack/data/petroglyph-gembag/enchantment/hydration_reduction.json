@@ -13,6 +13,9 @@
   },
   "anvil_cost": 2,
   "slots": [
-    "armor"
+    "head",
+    "chest",
+    "legs",
+    "feet"
   ]
 }

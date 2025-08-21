@@ -48,7 +48,7 @@
   },
   {
     "processor_type": "minecraft:block_rot",
-    "integrity": 0.125,
+    "integrity": 0.0625,
     "rottable_blocks": [
       "minecraft:wither_skeleton_skull",
       "minecraft:dried_ghast"
