@@ -15,19 +15,17 @@
             {
               "id": "minecraft:max_health",
               "base": 30
+            },
+            {
+              "id": "minecraft:knockback_resistance",
+              "base": 1
             }
           ],
-          "PersistenceRequired": true,
-            "drop_chances": {
-            "chest": 0,
-            "head": 0,
-            "legs": 0,
-            "feet": 0
-          }
+          "PersistenceRequired": true
         },
         "equipment": {
           "loot_table": "petroglyph-worldgen:fort/withering_miniboss_ominous",
-          "slot_drop_chances": 0
+          "slot_drop_chances": 0.05
         }
       },
       "weight": 1

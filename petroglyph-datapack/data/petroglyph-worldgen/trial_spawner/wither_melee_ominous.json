@@ -12,17 +12,11 @@
           "id": "minecraft:wither_skeleton",
           "Health": 20,
           "attributes": [],
-          "PersistenceRequired": true,
-            "drop_chances": {
-            "chest": 0,
-            "head": 0,
-            "legs": 0,
-            "feet": 0
-          }
+          "PersistenceRequired": true
         },
         "equipment": {
           "loot_table": "petroglyph-worldgen:fort/withering_sword_ominous",
-          "slot_drop_chances": 0
+          "slot_drop_chances": 0.05
         }
       },
       "weight": 1

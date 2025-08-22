@@ -21,7 +21,7 @@
         },
         "equipment": {
           "loot_table": "petroglyph-worldgen:fort/withering_sword_ominous",
-          "slot_drop_chances": 0.1
+          "slot_drop_chances": 0.05
         }
       },
       "weight": 1

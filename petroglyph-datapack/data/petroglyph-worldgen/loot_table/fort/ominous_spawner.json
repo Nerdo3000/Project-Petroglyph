@@ -5,29 +5,9 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:recovery_compass",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": {
-                  "text": "Ominous Fort Key",
-                  "type": "text"
-                },
-                "minecraft:custom_name": {
-                  "text": "Ominous Fort Key",
-                  "type": "text",
-                  "italic": false
-                },
-                "minecraft:item_model": "minecraft:ominous_trial_key",
-                "minecraft:custom_data": {
-                  "fort": {}
-                },
-                "custom_model_data": {"strings":["petroglyph:fort/item"]}
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-worldgen:fort/ominous_fort_key",
+          "weight": 1
         }
       ]
     }
