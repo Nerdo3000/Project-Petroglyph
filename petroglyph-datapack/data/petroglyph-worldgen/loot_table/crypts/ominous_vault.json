@@ -2,13 +2,12 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": {
+        "max": 3,
+        "min": 1,
+        "type": "minecraft:uniform"
+      },
       "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:artifacts/hteralys",
-          "weight": 5
-        },
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:artifacts/iron_pipe",
@@ -18,21 +17,6 @@
           "type": "minecraft:loot_table",
           "value": "petroglyph-gembag:artifacts/knockback_stick",
           "weight": 5
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:artifacts/wither_arrow",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
         },
                 {
           "type": "minecraft:loot_table",

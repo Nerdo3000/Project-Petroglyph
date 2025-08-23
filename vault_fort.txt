@@ -1,0 +1,29 @@
+      nbt: {
+        config: {
+          key_item: {
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Fort Key",
+                  "type": "text"
+                },
+                "minecraft:custom_name": {
+                  "text": "Fort Key",
+                  "type": "text",
+                  "italic": false
+                },
+                "minecraft:item_model": "minecraft:trial_key",
+                "minecraft:custom_data": {
+                  "fort": {}
+                },
+                "custom_model_data": {"strings":["petroglyph:fort/item"]}
+              },
+            count: 1,
+            id: "minecraft:recovery_compass"
+          },
+          loot_table: "petroglyph-worldgen:fort/vault"
+        },
+        id: "minecraft:vault",
+        server_data: {
+          state_updating_resumes_at: 0L
+        }
+      }

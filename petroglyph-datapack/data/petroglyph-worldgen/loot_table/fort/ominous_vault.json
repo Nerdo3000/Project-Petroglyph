@@ -1,0 +1,164 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "max": 3,
+        "min": 1,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/wither_arrow",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/hteralys",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:life_cluster",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:diamond",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:resin",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:life_large_bud",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:echo_shard",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_wind",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_fire",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_water",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_jump",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_nature",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_bundle",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {
+                  "type": "minecraft:group",
+                  "children": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:netherite_upgrade_smithing_template"
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:netherite_scrap",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_count",
+                          "count": {
+                            "type": "minecraft:uniform",
+                            "min": 1,
+                            "max": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:gold_nugget",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_count",
+                          "count": {
+                            "type": "minecraft:uniform",
+                            "min": 9,
+                            "max": 27
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "stored_enchantments": {
+                  "petroglyph-gembag:withering_absorbtion": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "stored_enchantments": {
+                  "petroglyph-gembag:withering_damage": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

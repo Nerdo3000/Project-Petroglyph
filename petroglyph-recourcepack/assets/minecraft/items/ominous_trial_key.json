@@ -13,6 +13,13 @@
               "type": "minecraft:model",
               "model": "petroglyph:item/ominous_crypts_key"
             }
+          },
+                    {
+            "when": "petroglyph:fort/item",
+            "model": {
+              "type": "minecraft:model",
+              "model": "petroglyph:item/ominous_fort_key"
+            }
           }
         ],
         "fallback": {
