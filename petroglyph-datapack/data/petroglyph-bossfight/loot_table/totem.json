@@ -18,6 +18,7 @@
                 },
                 "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact/life"]},
                 "minecraft:item_name": "Totem of Eternal Life",
+                "minecraft:enchantments":{"petroglyph-gembag:totem_life": 1},
                 "minecraft:custom_data":{
                   "flame_totem": {}},
                 "minecraft:death_protection": {

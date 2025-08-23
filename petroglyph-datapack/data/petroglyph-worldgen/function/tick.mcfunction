@@ -12,4 +12,3 @@ scoreboard players remove @e petroglyph.barrel_cooldown 1
 execute as @e[type=minecraft:marker,tag=replace_with_ghast] at @s positioned over motion_blocking run function petroglyph-worldgen:summon_ghast
 execute as @e[type=minecraft:marker,tag=ghast_attached] at @s unless entity @e[type=minecraft:ghast,tag=marker_attached,distance=..5] run kill @s
 execute as @e[type=minecraft:marker,tag=ghast_attached] at @s run tp @s @e[type=minecraft:ghast,tag=marker_attached,distance=..5,limit=1]
-

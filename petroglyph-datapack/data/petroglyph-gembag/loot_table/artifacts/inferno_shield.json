@@ -15,6 +15,7 @@
                   "text": "The Inferno's shield",
                   "type": "text"
                 },
+                "minecraft:damage_resistant":{"types": "#minecraft:is_fire"},
                 "minecraft:custom_name": {
                   "text": "The Inferno's shield",
                   "type": "text",

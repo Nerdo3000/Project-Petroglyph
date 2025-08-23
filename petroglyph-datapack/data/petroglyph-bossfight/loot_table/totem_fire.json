@@ -17,6 +17,8 @@
                   "italic": false
                 },
                 "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact/flame"]},
+                "minecraft:enchantments":{"petroglyph-gembag:totem_fire": 1},
+                "minecraft:damage_resistant":{"types": "#minecraft:is_fire"},
                 "minecraft:custom_data":{
                   "flame_totem": {}},
                 "minecraft:item_name": "Totem of Eternal Flames",
@@ -34,9 +36,17 @@
                           "show_icon": true
                         },
                         {
+                          "id": "minecraft:absorption",
+                          "amplifier": 1,
+                          "duration": 100,
+                          "ambient": true,
+                          "show_particles": true,
+                          "show_icon": true
+                        },
+                        {
                           "id": "minecraft:fire_resistance",
                           "amplifier": 0,
-                          "duration": 2000,
+                          "duration": 800,
                           "ambient": true,
                           "show_particles": true,
                           "show_icon": true
