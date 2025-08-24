@@ -11,12 +11,13 @@
         "entity": {
           "id": "minecraft:wither_skeleton",
           "Health": 20,
+          "DeathLootTable": "petroglyph-worldgen:fort/withering_sword_ominous_death",
           "attributes": [],
           "PersistenceRequired": true
         },
         "equipment": {
           "loot_table": "petroglyph-worldgen:fort/withering_sword_ominous",
-          "slot_drop_chances": 0.05
+          "slot_drop_chances": 0
         }
       },
       "weight": 1

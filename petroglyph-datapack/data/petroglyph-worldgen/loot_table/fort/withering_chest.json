@@ -19,7 +19,8 @@
                   "pattern": "minecraft:rib"
                 },
                 "minecraft:enchantments": {
-                  "petroglyph-gembag:withering_absorbtion": 1
+                  "petroglyph-gembag:withering_absorbtion": 1,
+                  "minecraft:fire_protection": 1
                 }
               }
             }

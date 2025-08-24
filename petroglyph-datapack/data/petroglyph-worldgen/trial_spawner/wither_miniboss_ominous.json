@@ -10,6 +10,7 @@
       "data": {
         "entity": {
           "id": "minecraft:wither_skeleton",
+          "DeathLootTable": "petroglyph-worldgen:fort/withering_sword_ominous_death",
           "Health": 30,
           "attributes": [
             {
@@ -25,7 +26,7 @@
         },
         "equipment": {
           "loot_table": "petroglyph-worldgen:fort/withering_miniboss_ominous",
-          "slot_drop_chances": 0.05
+          "slot_drop_chances": 0
         }
       },
       "weight": 1

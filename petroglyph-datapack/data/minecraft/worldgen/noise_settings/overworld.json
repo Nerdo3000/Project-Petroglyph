@@ -64,11 +64,11 @@
                         },
                         "argument2": {
                           "type": "minecraft:add",
-                          "argument1": 2,
+                          "argument1": 0.078125,
                           "argument2": {
                             "type": "minecraft:range_choice",
                             "input": "minecraft:overworld/sloped_cheese",
-                            "max_exclusive": 10,
+                            "max_exclusive": 1.5625,
                             "min_inclusive": -1000000,
                             "when_in_range": {
                               "type": "minecraft:min",
@@ -141,14 +141,7 @@
                                   "argument2": "minecraft:overworld/caves/spaghetti_roughness_function"
                                 }
                               },
-                              "argument2": {
-                                "type": "minecraft:range_choice",
-                                "input": "minecraft:overworld/caves/pillars",
-                                "max_exclusive": 0.03,
-                                "min_inclusive": -1000000,
-                                "when_in_range": -1000000,
-                                "when_out_of_range": "minecraft:overworld/caves/pillars"
-                              }
+                              "argument2": 1
                             }
                           }
                         }

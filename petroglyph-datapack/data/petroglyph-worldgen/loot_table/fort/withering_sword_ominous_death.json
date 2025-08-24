@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+          {"type": "minecraft:loot_table",
+        "value": "petroglyph-worldgen:fort/withering_sword"},
+        {
+          "type": "minecraft:empty",
+          "weight": 19
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-worldgen:fort/withering_helmet"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 19
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-worldgen:fort/withering_chest"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 19
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-worldgen:fort/withering_legs"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 19
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-worldgen:fort/withering_feet"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 19
+        }
+      ]
+    }
+  ]
+}

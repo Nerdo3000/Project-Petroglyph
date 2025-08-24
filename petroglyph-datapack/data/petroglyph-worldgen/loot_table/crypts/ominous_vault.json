@@ -2,170 +2,29 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "max": 3,
-        "min": 1,
-        "type": "minecraft:uniform"
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:artifacts/iron_pipe",
-          "weight": 5
-        },
+          "value": "petroglyph-worldgen:crypts/ominous_vault_usefull"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:artifacts/knockback_stick",
-          "weight": 5
-        },
-                {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:life_cluster",
-          "weight": 5
-        },                
+          "value": "petroglyph-worldgen:crypts/ominous_vault_gems"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:diamond",
-          "weight": 5
-        },
-                        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:resin",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:life_large_bud",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:echo_shard",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:orb_wind",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:orb_fire",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:orb_water",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:orb_jump",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "petroglyph-gembag:orb_nature",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "diamond_leggings",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "diamond_boots",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "diamond_chestplate",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "diamond_helmet",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30
-            }
-          ]
-        },
-        {
-          "type": "minecraft:sequence",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "name":"minecraft:enchanted_book",
-              "weight": 4,
-              "functions": [
-                {
-                  "function": "set_components",
-                  "components": {
-                    "stored_enchantments": {"petroglyph-gembag:hydration_reduction": 1}
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name":"minecraft:enchanted_book",
-              "weight": 5,
-              "functions": [
-                {
-                  "function": "set_components",
-                  "components": {
-                    "stored_enchantments": {"petroglyph-gembag:hydration_reduction": 2}
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name":"minecraft:enchanted_book",
-              "weight": 6,
-              "functions": [
-                {
-                  "function": "set_components",
-                  "components": {
-                    "stored_enchantments": {"petroglyph-gembag:hydration_reduction": 3}
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_axe",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30
-            }
-          ]
+          "value": "petroglyph-worldgen:crypts/ominous_vault_rare"
         }
       ]
     }

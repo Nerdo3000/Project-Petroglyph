@@ -55316,10 +55316,9 @@
         13
       ],
       nbt: {
-        spawn_data: {
-          entity: {}
-        },
+        ominous_config: "petroglyph-worldgen:wither_miniboss_ominous",
         id: "minecraft:trial_spawner",
+        normal_config: "petroglyph-worldgen:wither_miniboss",
         components: {}
       }
     },
@@ -56356,89 +56355,9 @@
         ],
         id: "minecraft:armor_stand",
         NoBasePlate: 1b,
-        equipment: {
-          mainhand: {
-            id: "minecraft:iron_sword",
-            count: 1,
-            components: {
-              "minecraft:enchantments": {
-                "minecraft:fire_aspect": 1
-              },
-              "minecraft:custom_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              },
-              "minecraft:custom_model_data": {
-                strings: [
-                  "petroglyph:worldgen/wither"
-                ]
-              },
-              "minecraft:enchantment_glint_override": 0b,
-              "minecraft:item_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              }
-            }
-          },
-          head: {
-            id: "minecraft:iron_helmet",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "head",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          chest: {
-            id: "minecraft:iron_chestplate",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "chest",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          legs: {
-            id: "minecraft:iron_leggings",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "legs",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          feet: {
-            id: "minecraft:iron_boots",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "feet",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          }
-        },
         DisabledSlots: 0,
         HurtTime: 0s,
+        Tags: ["equip_fort_sword"],
         Health: 20f,
         Pos: [
           734.5,
@@ -56500,91 +56419,11 @@
           0.0
         ],
         id: "minecraft:armor_stand",
-        NoBasePlate: 0b,
-        equipment: {
-          mainhand: {
-            id: "minecraft:iron_sword",
-            count: 1,
-            components: {
-              "minecraft:enchantments": {
-                "minecraft:fire_aspect": 1
-              },
-              "minecraft:custom_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              },
-              "minecraft:custom_model_data": {
-                strings: [
-                  "petroglyph:worldgen/wither"
-                ]
-              },
-              "minecraft:enchantment_glint_override": 0b,
-              "minecraft:item_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              }
-            }
-          },
-          head: {
-            id: "minecraft:iron_helmet",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "head",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          chest: {
-            id: "minecraft:iron_chestplate",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "chest",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          legs: {
-            id: "minecraft:iron_leggings",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "legs",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          feet: {
-            id: "minecraft:iron_boots",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "feet",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          }
-        },
+        NoBasePlate: 1b,
         DisabledSlots: 0,
         HurtTime: 0s,
         Health: 20f,
+        Tags: ["equip_fort_sword","left_handend_armor_stand"],
         Pos: [
           732.5,
           167.0,
@@ -56645,91 +56484,11 @@
           0.0
         ],
         id: "minecraft:armor_stand",
-        NoBasePlate: 0b,
-        equipment: {
-          mainhand: {
-            id: "minecraft:iron_sword",
-            count: 1,
-            components: {
-              "minecraft:enchantments": {
-                "minecraft:fire_aspect": 1
-              },
-              "minecraft:custom_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              },
-              "minecraft:custom_model_data": {
-                strings: [
-                  "petroglyph:worldgen/wither"
-                ]
-              },
-              "minecraft:enchantment_glint_override": 0b,
-              "minecraft:item_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              }
-            }
-          },
-          head: {
-            id: "minecraft:iron_helmet",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "head",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          chest: {
-            id: "minecraft:iron_chestplate",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "chest",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          legs: {
-            id: "minecraft:iron_leggings",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "legs",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          feet: {
-            id: "minecraft:iron_boots",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "feet",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          }
-        },
+        NoBasePlate: 1b,
         DisabledSlots: 0,
         HurtTime: 0s,
         Health: 20f,
+        Tags: ["equip_fort_bow"],
         Pos: [
           730.5,
           167.0,
@@ -56790,91 +56549,11 @@
           0.0
         ],
         id: "minecraft:armor_stand",
-        NoBasePlate: 0b,
-        equipment: {
-          mainhand: {
-            id: "minecraft:iron_sword",
-            count: 1,
-            components: {
-              "minecraft:enchantments": {
-                "minecraft:fire_aspect": 1
-              },
-              "minecraft:custom_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              },
-              "minecraft:custom_model_data": {
-                strings: [
-                  "petroglyph:worldgen/wither"
-                ]
-              },
-              "minecraft:enchantment_glint_override": 0b,
-              "minecraft:item_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              }
-            }
-          },
-          head: {
-            id: "minecraft:iron_helmet",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "head",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          chest: {
-            id: "minecraft:iron_chestplate",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "chest",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          legs: {
-            id: "minecraft:iron_leggings",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "legs",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          feet: {
-            id: "minecraft:iron_boots",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "feet",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          }
-        },
+        NoBasePlate: 1b,
         DisabledSlots: 0,
         HurtTime: 0s,
         Health: 20f,
+        Tags: ["equip_fort_sword"],
         Pos: [
           730.5,
           167.0,
@@ -56935,91 +56614,11 @@
           0.0
         ],
         id: "minecraft:armor_stand",
-        NoBasePlate: 0b,
-        equipment: {
-          mainhand: {
-            id: "minecraft:iron_sword",
-            count: 1,
-            components: {
-              "minecraft:enchantments": {
-                "minecraft:fire_aspect": 1
-              },
-              "minecraft:custom_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              },
-              "minecraft:custom_model_data": {
-                strings: [
-                  "petroglyph:worldgen/wither"
-                ]
-              },
-              "minecraft:enchantment_glint_override": 0b,
-              "minecraft:item_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              }
-            }
-          },
-          head: {
-            id: "minecraft:iron_helmet",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "head",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          chest: {
-            id: "minecraft:iron_chestplate",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "chest",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          legs: {
-            id: "minecraft:iron_leggings",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "legs",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          feet: {
-            id: "minecraft:iron_boots",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "feet",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          }
-        },
+        NoBasePlate: 1b,
         DisabledSlots: 0,
         HurtTime: 0s,
         Health: 20f,
+        Tags: ["equip_fort_sword","left_handend_armor_stand"],
         Pos: [
           736.5,
           167.0,
@@ -57080,91 +56679,11 @@
           0.0
         ],
         id: "minecraft:armor_stand",
-        NoBasePlate: 0b,
-        equipment: {
-          mainhand: {
-            id: "minecraft:iron_sword",
-            count: 1,
-            components: {
-              "minecraft:enchantments": {
-                "minecraft:fire_aspect": 1
-              },
-              "minecraft:custom_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              },
-              "minecraft:custom_model_data": {
-                strings: [
-                  "petroglyph:worldgen/wither"
-                ]
-              },
-              "minecraft:enchantment_glint_override": 0b,
-              "minecraft:item_name": {
-                italic: 0b,
-                text: "Withering Sword"
-              }
-            }
-          },
-          head: {
-            id: "minecraft:iron_helmet",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "head",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          chest: {
-            id: "minecraft:iron_chestplate",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "chest",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          legs: {
-            id: "minecraft:iron_leggings",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "legs",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          },
-          feet: {
-            id: "minecraft:iron_boots",
-            count: 1,
-            components: {
-              "minecraft:equippable": {
-                slot: "feet",
-                asset_id: "minecraft:netherite"
-              },
-              "minecraft:trim": {
-                material: "minecraft:redstone",
-                pattern: "minecraft:rib"
-              }
-            }
-          }
-        },
+        NoBasePlate: 1b,
         DisabledSlots: 0,
         HurtTime: 0s,
         Health: 20f,
+        Tags: ["equip_fort_bow","left_handend_armor_stand"],
         Pos: [
           736.5,
           167.0,
@@ -57173,6 +56692,43 @@
         Fire: 0s,
         Small: 0b,
         PortalCooldown: 0
+      }
+    },
+      {
+      blockPos: [
+        12,
+        7,
+        23
+      ],
+      pos: [
+        12.5,
+        7.0,
+        13.5
+      ],
+      nbt: {
+        id: "minecraft:marker",
+        Motion: [
+          0.0,
+          0.0,
+          0.0
+        ],
+        Tags: ["armor_stand_minor_active"],
+        fall_distance: 0.0,
+        PersistenceRequired:1b,
+        Rotation: [
+          0f,
+          0f
+        ],
+        OnGround: 0b,
+        Air: 300s,
+        Fire: 0s,
+        PortalCooldown: 0,
+        Invulnerable: 0b,
+                Pos: [
+          736.5,
+          167.0,
+          474.5
+        ],
       }
     }
   ],
