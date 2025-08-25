@@ -7,7 +7,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "petroglyph-worldgen:fort/ominous_fort_key",
-          "weight": 2
+          "weight": 4
         },
         {
           "type": "minecraft:item",

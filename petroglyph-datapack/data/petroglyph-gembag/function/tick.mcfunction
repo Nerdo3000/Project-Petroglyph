@@ -1,6 +1,6 @@
 execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:gods_tear":1b}}}} unless entity @s[nbt={active_effects:[{id:"minecraft:regeneration"}]}] run effect give @s minecraft:regeneration 60 1 true
 
-execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:gods_egg":1b}}}} run team join peace
+execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:gods_egg":1b}}}} run team join peace @s
 execute as @e[type=#petroglyph-gembag:peacefully,nbt={"PersistenceRequired":0b}] run team join peace
 
 execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:gods_eye":1b}}}} run effect give @s minecraft:night_vision 4 0 true
@@ -30,10 +30,10 @@ execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_pro
 
 execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:echo_shard":1b}}}} at @s unless block ~ ~-1 ~ #petroglyph-gembag:danger unless block ~ ~ ~ minecraft:lava run spawnpoint @s ~ ~ ~
 
-execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_shard":1b}}}} run attribute @s minecraft:max_health base set 22
-execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_small_bud":1b}}}} run attribute @s minecraft:max_health base set 24
-execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_medium_bud":1b}}}} run attribute @s minecraft:max_health base set 26
-execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_large_bud":1b}}}} run attribute @s minecraft:max_health base set 28
-execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_cluster":1b}}}} run attribute @s minecraft:max_health base set 30
+execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_shard":1b}}}} run attribute @s minecraft:max_health modifier add minecraft:gem_1 1 add_value
+execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_small_bud":1b}}}} run attribute @s minecraft:max_health modifier add minecraft:gem_2 1 add_value
+execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_medium_bud":1b}}}} run attribute @s minecraft:max_health modifier add minecraft:gem_3 2 add_value
+execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_large_bud":1b}}}} run attribute @s minecraft:max_health modifier add minecraft:gem_4 2 add_value
+execute as @a[gamemode=!spectator] if predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{type_specific:{type:"minecraft:player",advancements:{"petroglyph-gembag:life_cluster":1b}}}} run attribute @s minecraft:max_health modifier add minecraft:gem_5 4 add_value
 
 stopsound @a * minecraft:entity.player.burp

@@ -35,6 +35,21 @@
             }
           ]
         },
+                {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:fire_charge",

@@ -24,7 +24,7 @@
             "items": "minecraft:recovery_compass",
             "components": {
               "minecraft:item_model": "minecraft:ender_eye",
-              "minecraft:item_name": "Eye of Hrous",
+              "minecraft:item_name": "Eye of Horus",
               "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
             }
           }

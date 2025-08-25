@@ -1,4 +1,4 @@
-summon minecraft:skeleton ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",show_particles:false,amplifier:0,duration:-1}],Silent:true,"DeathLootTable": "petroglyph-worldgen:fort/withering_sword_ominous_death",Tags:["fort_equip_skeli","petroglyph-variation"],LeftHanded:false,drop_chances:{chest:0,feet:0,head:0,legs:0,mainhand:0,offhand:0}}
+summon minecraft:skeleton ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",show_particles:false,amplifier:0,duration:-1}],Silent:true,"DeathLootTable": "petroglyph-worldgen:fort/withering_sword_ominous_death",Tags:["fort_equip_skeli","petroglyph-variation"],LeftHanded:false,drop_chances:{chest:0,feet:0,head:0,legs:0,mainhand:0,offhand:0},PersistenceRequired:1b}
 
 execute if entity @s[tag=left_handend_armor_stand] run data modify entity @e[type=minecraft:skeleton,tag=fort_equip_skeli,limit=1,sort=nearest] LeftHanded set value true
 execute as @e[type=minecraft:skeleton,tag=fort_equip_skeli,limit=1,sort=nearest] run loot replace entity @s armor.head loot petroglyph-worldgen:fort/withering_helmet

@@ -29,6 +29,6 @@
   "slots": [
     "hand"
   ],
-  "supported_items": ["minecraft:iron_sword","minecraft:bow"],
+  "supported_items": ["minecraft:iron_sword","minecraft:diamond_sword","minecraft:netherite_sword","minecraft:stone_sword","minecraft:golden_sword","minecraft:wooden_sword","minecraft:bow"],
   "weight": 1
 }

@@ -7,7 +7,7 @@ execute as @a at @s if predicate petroglyph-hydra:sky_light unless predicate pet
 execute as @a at @s if dimension minecraft:the_nether run scoreboard players add @s petroglyph-hydration_rate 3
 execute as @a at @s if entity @e[tag=boss,distance=..50] run scoreboard players add @s petroglyph-hydration_rate 5
 
-execute as @a[advancements={petroglyph-gembag:gods_flower=true}] if score @s petroglyph-hydration_rate matches 3.. run scoreboard players remove @s petroglyph-hydration_rate 3
+execute as @a[advancements={petroglyph-gembag:gods_flower=true}] if score @s petroglyph-hydration_rate matches 2.. run scoreboard players remove @s petroglyph-hydration_rate 2
 
 execute as @a run function petroglyph-hydra:check_enchantment
 

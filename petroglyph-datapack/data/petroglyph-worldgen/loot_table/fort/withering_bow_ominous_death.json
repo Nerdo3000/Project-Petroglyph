@@ -9,7 +9,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 19
+          "weight": 15
         }
       ]
     },
@@ -22,7 +22,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 19
+          "weight": 15
         }
       ]
     },
@@ -35,7 +35,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 19
+          "weight": 15
         }
       ]
     },
@@ -48,7 +48,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 19
+          "weight": 15
         }
       ]
     },
@@ -61,7 +61,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 19
+          "weight": 15
         }
       ]
     }

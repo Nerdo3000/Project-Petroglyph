@@ -1,21 +1,28 @@
-# Petroglyph
+![Petroglyph](https://cdn.modrinth.com/data/cached_images/b61edec09d069a53a3865d7392ca05281e222f5e.png)
 This Datapack changes the entire overworld world generation, so that all of it is made out of deserts. Water is scarce and not renewable (no infinite water sources), but you will need it to survive. The Hydration system is based on your movement, exposure to daylight and location. You will need to live a nomadic lifestyle to survive the harsh desert. There are a few ways to renewably get water, but thats for you to figure out.
 
-There are new structures, including the 
+There are new structures and biomes, including the 
 - Crypts (generate in deserts)![The crypts outside](https://cdn.modrinth.com/data/cached_images/78802b2df6922cddfed78900524dd46f667bcba2_0.webp)
 - Pyramids (generate in badlands)![The Pyramid](https://cdn.modrinth.com/data/cached_images/e6e529e520adee6f1fccca39bd745910cb14ce3d_0.webp)
 - Oases (generate in deserts)![An oasis](https://cdn.modrinth.com/data/cached_images/851fb5e6123f12e273c406285ac964608a474392_0.webp)
 - Suspicious sand patches (generate in deserts)![A suspicious sand patch](https://cdn.modrinth.com/data/cached_images/ec92f475f613b25edba6f583366040ea51d1d03c_0.webp)
 - Desert tradesmen outposts (generate in deserts)![A tradesmen outpost](https://cdn.modrinth.com/data/cached_images/7a28d840ac935736964b6a62aab70eca4bb6e0d5_0.webp)
-- Camp (generate in every biome, as it allways generates near 0 0)![A Camp](https://cdn.modrinth.com/data/cached_images/4a03ec7fce87813abee560c4e291ae3069871d18_0.webp)
-  
+- Fort (generate in the new "Pyroa" Biome)![A fort](https://cdn.modrinth.com/data/cached_images/29eff8bdfdce09a5732d6e30f637c96cb4951e1b_0.webp)
+- Camp (generate in every biome, as it allways generates near 0 0)![The camp structure](https://cdn.modrinth.com/data/cached_images/9606802174a6deda143b2ffbb0dfdf9e38611249_0.webp)
+- Pyroa (a new Hot Biome)![The Pyroa Biome](https://cdn.modrinth.com/data/cached_images/1ad35e610cd7cf6c226cdb2a1d23090b334fb5ba_0.webp)
+- Fossilyard (a new deadly Biome)![The Fossilyard](https://cdn.modrinth.com/data/cached_images/c8c546add4cec1ade249741a8672e8f6ed70bbdd_0.webp)
+
 Many of these structures contain suspicious sand, from which you can uncover new artifacts and gems. Gems are collectible items, which give you a permanent bonus. You can view youre collected Gems in a new Advancement tab. Keep those brushes ready!![The Gems Advancement Tab](https://cdn.modrinth.com/data/cached_images/74948fb547230c467f761320512fc1ceffe2a366.png)
 
 
 The Datapack also features a new boss mob: the Pharao. You can find it in the Pyramid, but it is advised to prepare yourself beforehand, as it's a tough fight!![The Pharao Boss and Mummy Minions in the Background](https://cdn.modrinth.com/data/cached_images/d4e8140ec88c91dc2f67c1dbdce715d995860ebc_0.webp)
 
+The Inferno is another new Miniboss! It has its own structure and summoning ritual.![The Inferno](https://cdn.modrinth.com/data/cached_images/7ac36175544869656888a9cb170f9f678696f23d_0.webp)
+![The summoning](https://cdn.modrinth.com/data/cached_images/695c57e444c4bc0717f9fe976972ce9c9e2fbfe4_0.webp)
+
 # Resource Pack
 The Data Pack comes with a optional resource Pack. If you install the Data Pack, you can download the resource Pack seperatly. If you install the mod version, the resource pack should be automatically installed (versions 1.3+). The resource Pack IS NOT REQUIRED, but recommended. For example it does this:![Normal Mummy on the left; Improved Mummy on the right!](https://cdn.modrinth.com/data/cached_images/e26ac73f4ffc0e8da81386daec7cd0983edd79dd_0.webp)
+![A custom Mob](https://cdn.modrinth.com/data/cached_images/7ac36175544869656888a9cb170f9f678696f23d_0.webp)![A custom Mob](https://cdn.modrinth.com/data/cached_images/68c0009648cad3bf93c8a127cd33219c201f320d_0.webp)![A custom Mob](https://cdn.modrinth.com/data/cached_images/d13a9157098db23c0885f25821d3b4cad0afd3e7_0.webp)![A custom Mob](https://cdn.modrinth.com/data/cached_images/1634dc804aca53ffe87a1e8f594e5e58851c0be6_0.webp)
 
 # Guide
 <details>
@@ -63,8 +70,8 @@ The Data Pack comes with a optional resource Pack. If you install the Data Pack,
 
 
 # Custom Items
-Here is every custom item in the data pack:![Custom Items](https://cdn.modrinth.com/data/cached_images/af6164d2fc10e340399f82032ea866e0c42fd9b4.png)
-
+Here is every custom item in the data pack:![Custom Items](https://cdn.modrinth.com/data/cached_images/0183d8577e4dfddf706751365236c6515a74ea86.png)
+![Custom Gems](https://cdn.modrinth.com/data/cached_images/f19d43276399ab7935ea2ca9d95af682f4ee3439.png)
 
 
 # Thanks and credits
@@ -76,3 +83,4 @@ Here is every custom item in the data pack:![Custom Items](https://cdn.modrinth.
 - Thanks to the minecraft Wiki ([https://minecraft.wiki](https://minecraft.wiki)), I don't know, how I would have made this without it
 - Thanks to Kwipla ([https://www.youtube.com/@Kwipla/](https://www.youtube.com/@Kwipla/)) for a spiral 3x3 Piston door [tutorial](https://www.youtube.com/watch?v=xWelHRhcNpQl)
 - Thanks to Purplers ([https://www.youtube.com/@Purplers/](https://www.youtube.com/@Purplers/)) for another spiral 3x3 Piston door [tutorial](https://www.youtube.com/watch?v=xWelHRhcNpQl)
+- Thanks to SpyglassMC for very code auto-completion and highlighting ([https://spyglassmc.com](https://spyglassmc.com))
