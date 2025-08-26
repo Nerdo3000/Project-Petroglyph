@@ -1,0 +1,1 @@
+execute at @s if predicate petroglyph-worldgen:badlands run function petroglyph-worldgen:variate_badlands_zombie

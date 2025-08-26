@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:large_amethyst_bud",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
+      }
+    },
+    "title": "Large Bud of Life",
+    "description": "You have collected the Large Bud of Life! \n[+8 Health]",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "petroglyph-gembag:life_medium_bud",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item" :
+          {
+            "items": "minecraft:recovery_compass",
+            "components": {
+              "minecraft:item_model": "minecraft:large_amethyst_bud",
+              "minecraft:item_name": "Large Bud of Life",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
+            }
+          }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ],
+  "rewards": {
+    "function": "petroglyph-gembag:life_large_bud"
+  }
+}

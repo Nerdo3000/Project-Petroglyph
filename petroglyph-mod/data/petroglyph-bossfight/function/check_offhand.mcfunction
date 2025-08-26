@@ -1,0 +1,2 @@
+execute unless items entity @s weapon.offhand minecraft:totem_of_undying run tag @s remove totem_in_offhand
+execute if items entity @s weapon.offhand minecraft:totem_of_undying run tag @s add totem_in_offhand

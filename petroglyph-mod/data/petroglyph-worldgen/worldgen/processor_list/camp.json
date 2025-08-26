@@ -1,0 +1,7 @@
+[
+  {
+    "processor_type": "minecraft:block_rot",
+    "integrity": 0.8,
+    "rottable_blocks": "minecraft:coarse_dirt"
+  }
+]

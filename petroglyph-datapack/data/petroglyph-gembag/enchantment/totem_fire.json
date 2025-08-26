@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 800,
+  "description": "Totem of Eternal Flames",
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:fire_resistance",
+          "min_duration": 3,
+          "max_duration": 3,
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 2500,
+    "per_level_above_first": 1000
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1000,
+    "per_level_above_first": 1000
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "minecraft:totem_of_undying",
+  "weight": 1
+}

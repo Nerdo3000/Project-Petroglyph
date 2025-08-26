@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "petroglyph:gembag/gem",
+            "model": {
+              "type": "minecraft:model",
+              "model": "petroglyph:item/uncut"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/firework_star",
+          "tints": [
+                  {
+        "type": "minecraft:constant",
+        "value": -1
+      },
+      {
+        "type": "minecraft:firework",
+        "default": -7697782
+      }
+          ]
+        }
+      }
+    ]
+  }
+}

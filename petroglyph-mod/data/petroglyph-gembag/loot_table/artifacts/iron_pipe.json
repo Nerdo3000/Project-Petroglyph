@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Steel Pipe",
+                  "type": "text"
+                },
+                "minecraft:custom_name": {
+                  "text": "Steel Pipe",
+                  "type": "text",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  "A very powerfull... Weapon?"
+                ],
+                "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]},
+                "minecraft:item_model": "minecraft:breeze_rod"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

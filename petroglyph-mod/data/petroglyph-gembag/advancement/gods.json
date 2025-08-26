@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/ui"]}
+      }
+    },
+    "title": "Legendary Gems",
+    "description": "Your Legendary Gem collection",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "petroglyph-gembag:root",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:inventory_changed"
+      }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ]
+}

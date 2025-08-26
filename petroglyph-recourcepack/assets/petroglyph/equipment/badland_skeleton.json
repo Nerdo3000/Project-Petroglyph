@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "petroglyph:badland_skeleton"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "petroglyph:badland_skeleton"
+      }
+    ]
+  }
+}

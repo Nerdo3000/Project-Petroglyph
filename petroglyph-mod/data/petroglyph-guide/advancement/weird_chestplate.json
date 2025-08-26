@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:allay_spawn_egg",
+      "components": {
+        "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]}
+      }
+    },
+    "title": "A weird Chestplate",
+    "description": "Collect and equip the weird Chestplate from the Pharao.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "petroglyph-guide:pharao_boss",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_chestplate",
+            "components": {
+              "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ]
+}

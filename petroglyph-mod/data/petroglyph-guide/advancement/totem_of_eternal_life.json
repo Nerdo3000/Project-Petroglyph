@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying",
+      "components": {
+        "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]}
+      }
+    },
+    "title": "A Totem of Eternal Life",
+    "description": "Collect and equip the Totem of eternal life from the Pharao. You are Immortal now*. (* Not guaranteed to allways work, use with care.)",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "petroglyph-guide:pharao_boss",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:totem_of_undying",
+            "components": {
+              "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ]
+}

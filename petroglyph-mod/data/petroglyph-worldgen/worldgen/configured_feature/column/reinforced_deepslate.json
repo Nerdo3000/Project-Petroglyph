@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "down",
+    "allowed_placement": {
+      "type": "minecraft:not",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:bedrock",
+          "minecraft:deepslate"
+        ]
+      }
+    },
+    "prioritize_tip": false,
+    "layers": [
+      {
+        "height": 150,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:reinforced_deepslate"
+          }
+        }
+      }
+    ]
+  }
+}

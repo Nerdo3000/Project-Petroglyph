@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "potion_contents": "water"
+      }
+    },
+    "title": "Filtered Water",
+    "description": "Drink your first Filtered water bottle. It restores more Hydration!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "petroglyph-guide:water_bottle",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components": {
+            "minecraft:custom_data": {
+              "filtered": {}
+              }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ]
+}

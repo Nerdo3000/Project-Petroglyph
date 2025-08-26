@@ -1,0 +1,25 @@
+{
+  "type": "command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "petroglyph-gembag:artifacts/inferno_shield"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "petroglyph-bossfight:totem_fire"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Nourishing Bread",
+                  "type": "text"
+                },
+                "minecraft:custom_name": {
+                  "text": "Nourishing Bread",
+                  "type": "text",
+                  "italic": false
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:bread",
+                  "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["20 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["19 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["18 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["17 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["16 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["15 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["14 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["13 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["12 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["11 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["10 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["9 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["8 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["7 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["6 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["5 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["4 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["3 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["2 uses left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": { "minecraft:item_name": {
+   "text": "Nourishing Bread",
+   "type": "text"
+  },
+ "minecraft:custom_name": {
+   "text": "Nourishing Bread",
+   "type": "text",
+   "italic": false
+  },
+  "minecraft:lore": ["1 use left"],
+  "minecraft:use_remainder": {
+    "id": "minecraft:bread",
+    "components": {}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+ }
+}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Balancing Axe",
+                  "type": "text"
+                },
+                "minecraft:custom_name": {
+                  "text": "Balancing Axe",
+                  "type": "text",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  "Axe with High Damage and Slow Attack Speed"
+                ],
+                "enchantment_glint_override" : true,
+                "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:minecraft",
+                    "amount": -3.5,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 50
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

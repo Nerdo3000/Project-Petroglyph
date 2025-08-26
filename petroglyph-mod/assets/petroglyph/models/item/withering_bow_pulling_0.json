@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "petroglyph:item/withering_bow_pulling_0"
+  }
+}

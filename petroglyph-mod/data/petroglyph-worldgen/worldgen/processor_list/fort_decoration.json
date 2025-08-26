@@ -1,0 +1,56 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:water_cauldron",
+            "Properties": {
+              "level": "3"
+            }
+          },
+          "probability": 0.3333333333333333
+        },
+        "output_state": {
+          "Name": "minecraft:water_cauldron",
+          "Properties": {
+            "level": "1"
+          }
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_blockstate_match",
+          "block_state": {
+            "Name": "minecraft:water_cauldron",
+            "Properties": {
+              "level": "3"
+            }
+          },
+          "probability": 0.5
+        },
+        "output_state": {
+          "Name": "minecraft:water_cauldron",
+          "Properties": {
+            "level": "2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "processor_type": "minecraft:block_rot",
+    "integrity": 0.0625,
+    "rottable_blocks": [
+      "minecraft:player_head"
+    ]
+  }
+]

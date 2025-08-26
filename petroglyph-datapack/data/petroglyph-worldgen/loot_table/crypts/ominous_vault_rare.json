@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/iron_pipe",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/knockback_stick",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/hteralys",
+          "weight": 6
+        },     
+        {
+          "type": "minecraft:sequence",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name":"minecraft:enchanted_book",
+              "weight": 4,
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "stored_enchantments": {"petroglyph-gembag:hydration_reduction": 1}
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name":"minecraft:enchanted_book",
+              "weight": 5,
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "stored_enchantments": {"petroglyph-gembag:hydration_reduction": 2}
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name":"minecraft:enchanted_book",
+              "weight": 6,
+              "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "stored_enchantments": {"petroglyph-gembag:hydration_reduction": 3}
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

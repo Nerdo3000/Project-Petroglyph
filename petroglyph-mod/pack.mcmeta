@@ -1,0 +1,21 @@
+{
+  "pack": {
+    "pack_format": 71,
+    "description": "Survive the Desert",
+    "supported_formats": [
+      71,
+      81
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_80",
+        "formats": [
+          80,
+          81
+        ]
+      }
+    ]
+  }
+}

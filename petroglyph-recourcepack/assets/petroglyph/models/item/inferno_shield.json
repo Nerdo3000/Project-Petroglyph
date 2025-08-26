@@ -1,0 +1,54 @@
+{
+	"textures": {
+		"0": "petroglyph:item/hovering_inferno"
+	},
+	"gui_light": "front",
+	"elements": [
+		{	
+			"light_emission": 15,
+			"from": [7, 0, 2],
+			"to": [8, 22, 14],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 0.25, 0.25, 5.75], "texture": "#0"},
+				"east": {"uv": [3.5, 0.25, 6.5, 5.75], "texture": "#0"},
+				"south": {"uv": [3.25, 0.25, 3.5, 5.75], "texture": "#0"},
+				"west": {"uv": [0.25, 0.25, 3.25, 5.75], "texture": "#0"},
+				"up": {"uv": [3.25, 0.25, 0.25, 0], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [6.25, 0, 3.25, 0.25], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [3.25, -4.25, 4.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [2.25, -4.25, 4.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 75, 0],
+			"translation": [-2.5, -6, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 75, 0],
+			"translation": [2.5, -6, 0]
+		},
+		"gui": {
+			"rotation": [0, 90, 0],
+			"translation": [0, -2.25, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4.25, 6.5]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0, -3, -0.25]
+		},
+		"ground": {
+			"scale": [0.5,0.5,0.5]
+		}
+	}
+}

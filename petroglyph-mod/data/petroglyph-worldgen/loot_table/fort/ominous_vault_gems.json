@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:life_cluster",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:diamond",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:resin",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:life_large_bud",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:echo_shard",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_wind",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_fire",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_water",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_jump",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:orb_nature",
+          "weight": 7
+        }
+      ]
+    }
+  ]
+}
