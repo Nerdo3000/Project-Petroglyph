@@ -83,4 +83,4 @@ Here is every custom item in the data pack:![Custom Items](https://cdn.modrinth.
 - Thanks to the minecraft Wiki ([https://minecraft.wiki](https://minecraft.wiki)), I don't know, how I would have made this without it
 - Thanks to Kwipla ([https://www.youtube.com/@Kwipla/](https://www.youtube.com/@Kwipla/)) for a spiral 3x3 Piston door [tutorial](https://www.youtube.com/watch?v=xWelHRhcNpQl)
 - Thanks to Purplers ([https://www.youtube.com/@Purplers/](https://www.youtube.com/@Purplers/)) for another spiral 3x3 Piston door [tutorial](https://www.youtube.com/watch?v=xWelHRhcNpQl)
-- Thanks to SpyglassMC for very code auto-completion and highlighting ([https://spyglassmc.com](https://spyglassmc.com))
+- Thanks to SpyglassMC for very cool code auto-completion and highlighting ([https://spyglassmc.com](https://spyglassmc.com))
