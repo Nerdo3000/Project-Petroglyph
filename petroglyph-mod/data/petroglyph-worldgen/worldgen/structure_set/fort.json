@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "petroglyph-worldgen:fort",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 42,
+    "separation": 32,
+    "salt": 65
+  }
+}

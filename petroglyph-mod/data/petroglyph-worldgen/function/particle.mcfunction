@@ -1,0 +1,9 @@
+$particle minecraft:trail{target:[$(x),$(y),$(z)],color:12888341,duration:40} ~ ~ ~ 1 1 1 1 10
+$particle minecraft:trail{target:[$(x),$(y),$(z)],color:12888341,duration:50} ~ ~ ~ 1 1 1 1 10
+$particle minecraft:trail{target:[$(x),$(y),$(z)],color:12888341,duration:60} ~ ~ ~ 1 1 1 1 10
+$particle minecraft:trail{target:[$(x),$(y),$(z)],color:12888341,duration:70} ~ ~ ~ 1 1 1 1 10
+$particle minecraft:trail{target:[$(x),$(y),$(z)],color:12888341,duration:80} ~ ~ ~ 1 1 1 1 10
+$particle minecraft:trail{target:[$(x),$(y),$(z)],color:12888341,duration:90} ~ ~ ~ 1 1 1 1 10
+$particle minecraft:trail{target:[$(x),$(y),$(z)],color:12888341,duration:100} ~ ~ ~ 1 1 1 1 10
+$particle minecraft:trail{target:[$(x),$(y),$(z)],color:12888341,duration:110} ~ ~ ~ 1 1 1 1 10
+$particle minecraft:trail{target:[$(x),$(y),$(z)],color:12888341,duration:120} ~ ~ ~ 1 1 1 1 10

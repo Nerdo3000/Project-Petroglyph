@@ -1,0 +1,29 @@
+{
+  "feature": "petroglyph-worldgen:blob/magma",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "absolute": 55
+        }
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -8,
+        "max_inclusive": 8
+      },
+      "y_spread": 0
+    }
+  ]
+}

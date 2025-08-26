@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Hteralys' Crossbow",
+                  "type": "text"
+                },
+                "minecraft:custom_name": {
+                  "text": "Hteralys' Crossbow",
+                  "type": "text",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  "A powerfull Crossbow"
+                ],
+                "minecraft:enchantments": {
+                  "minecraft:quick_charge": 5,
+                  "minecraft:power": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

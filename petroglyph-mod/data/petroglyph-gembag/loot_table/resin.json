@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+        	"item_model":"resin_clump",
+             "item_name":"Amber Gem",
+             "custom_model_data": {"strings":["petroglyph:gembag/gem"]},
+             "rarity":"common",
+             "enchantment_glint_override":true, 
+"consumable":{"consume_seconds":10000000, "animation":"none", "sound":"ui.toast.in", "has_consume_particles":false}, 
+"food":{"nutrition":0,"saturation":0,"can_always_eat":true},
+	"lore":[[{"text":"Use","bold":true},{"text":" to collect","italic":false}]]
+              }
+            }
+          ],
+          "name": "minecraft:recovery_compass"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Totem of Eternal Flames",
+                  "italic": false
+                },
+                "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact/flame"]},
+                "minecraft:enchantments":{"petroglyph-gembag:totem_fire": 1},
+                "minecraft:damage_resistant":{"types": "#minecraft:is_fire"},
+                "minecraft:custom_data":{
+                  "flame_totem": {}},
+                "minecraft:item_name": "Totem of Eternal Flames",
+                "minecraft:death_protection": {
+                  "death_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "amplifier": 1,
+                          "duration": 900,
+                          "ambient": true,
+                          "show_particles": true,
+                          "show_icon": true
+                        },
+                        {
+                          "id": "minecraft:absorption",
+                          "amplifier": 1,
+                          "duration": 100,
+                          "ambient": true,
+                          "show_particles": true,
+                          "show_icon": true
+                        },
+                        {
+                          "id": "minecraft:fire_resistance",
+                          "amplifier": 0,
+                          "duration": 800,
+                          "ambient": true,
+                          "show_particles": true,
+                          "show_icon": true
+                        }
+                      ],
+                      "probability": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

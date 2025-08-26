@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Dune Armor Leggings",
+                  "type": "text"
+                },
+                "minecraft:custom_name": {
+                  "text": "Dune Armor Leggings",
+                  "type": "text",
+                  "italic": false
+                },
+                "minecraft:dyed_color": 12759680,
+                "enchantments": {
+                  "petroglyph-gembag:hydration_reduction": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-hydra:filtered_water",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/nourishing_bread",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/dune_boots",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/dune_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/dune_leggings",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-gembag:artifacts/dune_chestplate",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

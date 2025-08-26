@@ -1,0 +1,121 @@
+{
+  "elements": [
+        {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/brew",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/campfire",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+        {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/campfire2",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+        {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/pile",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+            {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/camel",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+        {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/large_tent",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+        {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/loadstone",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+        {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/tent",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+        {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/water",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+        {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/wood",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+           {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:camp/cauldron",
+        "processors": "petroglyph-worldgen:camp",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "empty_pool_element"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

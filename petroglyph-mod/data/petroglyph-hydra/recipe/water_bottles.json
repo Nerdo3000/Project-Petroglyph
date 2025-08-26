@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "minecraft:glass_bottle",
+    "minecraft:glass_bottle",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:max_stack_size": 32,
+      "minecraft:potion_contents": "minecraft:water",
+      "minecraft:use_remainder": {
+        "id": "minecraft:recovery_compass",
+        "components": {
+          "max_stack_size": 64,
+          "item_model": "glass_bottle",
+          "custom_name": {
+            "text": "Glass Bottle",
+            "italic": false
+          },
+          "rarity": "common",
+          "custom_data": {
+            "glass_bottle_fake": {}
+          }
+        }
+      }
+    }
+  }
+}

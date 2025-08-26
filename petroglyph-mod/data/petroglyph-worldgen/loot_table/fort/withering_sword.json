@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "petroglyph:worldgen/wither"
+                  ]
+                },
+                "minecraft:item_name": {
+                  "text": "Withering Sword",
+                  "italic": false
+                },
+                "minecraft:custom_name": {
+                  "text": "Withering Sword",
+                  "italic": false
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:enchantments": {
+                  "minecraft:fire_aspect": 1,
+                  "petroglyph-gembag:withering_damage": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

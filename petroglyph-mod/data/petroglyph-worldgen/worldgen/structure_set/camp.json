@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "petroglyph-worldgen:camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 0,
+    "spread": 0,
+    "count": 1,
+    "preferred_biomes": "#petroglyph-worldgen:every_biome",
+    "salt": 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:is_ocean",
+    "minecraft:desert",
+    "#minecraft:is_badlands",
+    "petroglyph-worldgen:fossilyard"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:glass"
+  },
+  "pattern": [
+    "# #",
+    " # "
+  ],
+  "result": {
+    "components": {
+      "max_stack_size": 64,
+      "item_model": "glass_bottle",
+      "custom_name": {
+        "text": "Glass Bottle",
+        "italic": false
+      },
+      "rarity": "common",
+      "custom_data": {
+        "glass_bottle_fake": {}
+      }
+    },
+    "count": 3,
+    "id": "minecraft:recovery_compass"
+  }
+}

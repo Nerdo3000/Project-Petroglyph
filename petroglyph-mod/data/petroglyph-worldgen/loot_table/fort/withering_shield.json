@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "petroglyph:worldgen/wither"
+                  ]
+                },
+                "minecraft:item_name": {
+                  "text": "Withering Shield",
+                  "italic": false
+                },
+                "minecraft:custom_name": {
+                  "text": "Withering Shield",
+                  "italic": false
+                },
+                "banner_patterns":[
+                  {"pattern":"minecraft:triangle_bottom","color":"black"},
+                  {"pattern":"minecraft:stripe_middle","color":"black"},
+                  {"pattern":"minecraft:triangle_top","color":"black"},
+                  {"pattern":"minecraft:border","color":"black"},
+                  {"pattern":"minecraft:skull","color":"red"},
+                  {"pattern":"minecraft:rhombus","color":"black"}
+                ],
+                "tooltip_display": {
+                  "hidden_components": [
+                    "banner_patterns",
+                    "minecraft:base_color"
+                  ]
+                },
+                "minecraft:base_color": "red",
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

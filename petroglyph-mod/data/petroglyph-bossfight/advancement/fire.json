@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "deflected_projectile": {
+      "conditions": {
+        "damage": {
+          "blocked": true
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "requirements": [
+    [
+      "deflected_projectile"
+    ]
+  ],
+  "rewards": {
+    "function": "petroglyph-bossfight:ignite"
+  },
+  "sends_telemetry_event": false
+}

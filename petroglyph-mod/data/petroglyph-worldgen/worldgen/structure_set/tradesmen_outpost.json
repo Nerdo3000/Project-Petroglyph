@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 14357617,
+    "separation": 20,
+    "spacing": 45
+  },
+  "structures": [
+    {
+      "structure": "petroglyph-worldgen:tradesmen_outpost",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Ancient Sword",
+                  "type": "text"
+                },
+                "minecraft:custom_name": {
+                  "text": "Ancient Sword",
+                  "type": "text",
+                  "italic": false
+                },
+                "minecraft:blocks_attacks": {
+                  "block_delay_seconds": 0,
+                  "disable_cooldown_scale": 0,
+                  "damage_reductions": [
+                    {
+                      "base": 1,
+                      "factor": 1,
+                      "horizontal_blocking_angle": 90
+                    }
+                  ],
+                  "item_damage": {
+                    "threshold": 5,
+                    "base": 1,
+                    "factor": 0.2
+                  },
+                  "block_sound": "block.anvil.place",
+                  "disabled_sound": "item.shield.break",
+                  "bypassed_by": "#bypasses_shield"
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:custom_model_data" : {"strings":["petroglyph:gembag/artifact"]},
+                "enchantment_glint_override": true,
+                "minecraft:lore": [
+                  "A pre Combat Update Sword"
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "minecraft:quick_sword",
+                    "amount": 1000,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "minecraft:quick_sword",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

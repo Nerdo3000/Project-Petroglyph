@@ -1,0 +1,64 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+      "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+                  {
+                  "when": "petroglyph:gembag/artifact",
+                  "model": {
+                    "type": "minecraft:condition",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "petroglyph:item/inferno_shield"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "petroglyph:item/inferno_shield_blocking"
+                  },
+                  "property": "minecraft:using_item"
+                          }
+                  },
+                  {
+                  "when": "petroglyph:worldgen/wither",
+                  "model": {
+                    "type": "minecraft:condition",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "petroglyph:item/withering_shield"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "petroglyph:item/withering_shield_blocking"
+                  },
+                  "property": "minecraft:using_item"
+                          }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "on_false": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/shield",
+                    "model": {
+                      "type": "minecraft:shield"
+                    }
+                  },
+                  "on_true": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/shield_blocking",
+                    "model": {
+                      "type": "minecraft:shield"
+                    }
+                  },
+                  "property": "minecraft:using_item"
+                  }
+                
+        }
+      ]
+      
+  }
+}

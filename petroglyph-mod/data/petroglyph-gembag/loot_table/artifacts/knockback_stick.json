@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Knockback Stick",
+                  "type": "text"
+                },
+                "minecraft:custom_name": {
+                  "text": "Knockback Stick",
+                  "type": "text",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  "A classic Knockback Stick"
+                ],
+                "minecraft:enchantments": {
+                  "minecraft:knockback": 10
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

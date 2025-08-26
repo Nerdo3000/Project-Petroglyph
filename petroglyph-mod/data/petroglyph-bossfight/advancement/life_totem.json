@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "totem": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "life_totem": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "totem"
+    ]
+  ],
+  "rewards": {
+    "function": "petroglyph-bossfight:inf_totem_life"
+  },
+  "sends_telemetry_event": false
+}

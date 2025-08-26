@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "petroglyph:worldgen/coral"
+                  ]
+                },
+                "minecraft:item_name": {
+                  "text": "Coral Dagger",
+                  "italic": false
+                },
+                "minecraft:custom_name": {
+                  "text": "Coral Dagger",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

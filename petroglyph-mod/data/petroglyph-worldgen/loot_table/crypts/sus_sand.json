@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block_use",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-worldgen:crypts/crypts_key",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-worldgen:crypts/ominous_crypts_key",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "petroglyph-worldgen:sus_sand_patch",
+          "weight": 12
+        }
+      ]
+    }
+  ]
+}

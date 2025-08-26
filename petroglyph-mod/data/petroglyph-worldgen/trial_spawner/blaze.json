@@ -1,0 +1,37 @@
+{
+  "spawn_range": 3,
+  "total_mobs": 4,
+  "total_mobs_added_per_player": 2,
+  "simultaneous_mobs": 2,
+  "simultaneous_mobs_added_per_player": 1,
+  "ticks_between_spawn": 100,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:blaze",
+          "Health": 16,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 16
+            },
+            {
+              "id": "minecraft:scale",
+              "base": 0.9
+            }
+          ],
+          "PersistenceRequired": true
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "loot_tables_to_eject": [
+    {
+      "data": "petroglyph-worldgen:fort/spawner",
+      "weight": 1
+    }
+  ],
+  "items_to_drop_when_ominous": "petroglyph-worldgen:fort/ominous_item_drop"
+}

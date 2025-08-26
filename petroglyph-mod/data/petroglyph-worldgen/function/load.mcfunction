@@ -1,0 +1,3 @@
+scoreboard objectives add petroglyph.barrel_cooldown dummy
+function petroglyph-worldgen:variate_all
+schedule function petroglyph-worldgen:check_spawners 20s

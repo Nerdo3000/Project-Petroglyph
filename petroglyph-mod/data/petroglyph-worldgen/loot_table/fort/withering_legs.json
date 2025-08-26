@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "minecraft:netherite"
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:redstone",
+                  "pattern": "minecraft:rib"
+                },
+                "minecraft:enchantments": {
+                  "petroglyph-gembag:withering_absorbtion": 1,
+                  "minecraft:fire_protection": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

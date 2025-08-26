@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components": {
+            "minecraft:custom_data": {
+              "filtered": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ],
+  "rewards": {
+    "function": "petroglyph-hydra:water_drink_filtered"
+  }
+}

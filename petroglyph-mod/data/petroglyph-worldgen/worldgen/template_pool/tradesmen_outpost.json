@@ -1,0 +1,16 @@
+{
+  "name": "minecraft:tradesmen_outpost",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "petroglyph-worldgen:tradesmen_outpost/tradesmen_outpost",
+        "processors": "petroglyph-worldgen:cauldron_empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

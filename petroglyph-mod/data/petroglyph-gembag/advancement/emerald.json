@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
+      }
+    },
+    "title": "Emerald Gem",
+    "description": "You have collected the Emerald Gem! \n[Luck I Effect]",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "petroglyph-gembag:root",
+  "criteria": {
+    "basic": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item" :
+          {
+            "items": "minecraft:recovery_compass",
+            "components": {
+              "minecraft:item_model": "minecraft:emerald",
+              "minecraft:item_name": "Emerald Gem",
+              "custom_model_data": {"strings":["petroglyph:gembag/gem"]}
+            }
+          }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "basic"
+    ]
+  ],
+  "rewards": {
+    "function": "petroglyph-gembag:emerald"
+  }
+}

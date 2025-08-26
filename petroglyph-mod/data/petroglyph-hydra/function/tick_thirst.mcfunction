@@ -1,0 +1,22 @@
+scoreboard players set @a petroglyph-hydration_rate 1
+execute as @a at @s if biome ~ ~ ~ #minecraft:is_badlands run scoreboard players add @s petroglyph-hydration_rate 3
+execute as @a at @s if biome ~ ~ ~ petroglyph-worldgen:pyroa run scoreboard players add @s petroglyph-hydration_rate 4
+execute as @a at @s if predicate petroglyph-hydra:jumping run scoreboard players add @s petroglyph-hydration_rate 1
+execute as @a at @s if predicate petroglyph-hydra:sprinting run scoreboard players add @s petroglyph-hydration_rate 1
+execute as @a at @s if predicate petroglyph-hydra:sky_light unless predicate petroglyph-hydra:night_time run scoreboard players add @s petroglyph-hydration_rate 2
+execute as @a at @s if dimension minecraft:the_nether run scoreboard players add @s petroglyph-hydration_rate 3
+execute as @a at @s if entity @e[tag=boss,distance=..50] run scoreboard players add @s petroglyph-hydration_rate 5
+
+execute as @a[advancements={petroglyph-gembag:gods_flower=true}] if score @s petroglyph-hydration_rate matches 2.. run scoreboard players remove @s petroglyph-hydration_rate 2
+
+execute as @a run function petroglyph-hydra:check_enchantment
+
+execute as @a if score @s petroglyph-hydration_rate matches ..0 run scoreboard players set @s petroglyph-hydration_rate 0
+
+execute as @a if entity @s[gamemode=!survival] if entity @s[gamemode=!adventure] run scoreboard players set @s petroglyph-hydration_rate 0
+
+execute as @a run scoreboard players operation @s petroglyph-hydration_level -= @s petroglyph-hydration_rate 
+execute as @a if score @s petroglyph-hydration_level matches ..0 run damage @s 8 minecraft:dry_out
+execute as @a if score @s petroglyph-hydration_level matches ..20 run effect give @s minecraft:nausea 15 0 false 
+
+schedule function petroglyph-hydra:tick_thirst 2s replace

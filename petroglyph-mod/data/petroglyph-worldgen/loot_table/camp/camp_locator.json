@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "petroglyph-worldgen:camp",
+              "decoration": "minecraft:banner_brown",
+              "search_radius": 32,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Camp Explorer",
+                "minecraft:map_color": 8152374
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
