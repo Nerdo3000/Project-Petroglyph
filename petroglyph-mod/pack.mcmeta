@@ -4,8 +4,10 @@
     "description": "Survive the Desert",
     "supported_formats": [
       71,
-      81
-    ]
+      88
+    ],
+    "min_format": 71,
+    "max_format": 88
   },
   "overlays": {
     "entries": [
@@ -13,8 +15,19 @@
         "directory": "overlay_80",
         "formats": [
           80,
-          81
-        ]
+          88
+        ],
+        "min_format": 80,
+        "max_format": 88
+      },
+      {
+       "directory": "overlay_88",
+        "formats": [
+          82,
+          88
+        ],
+        "min_format": 82,
+        "max_format": 88
       }
     ]
   }
